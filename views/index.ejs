@@ -3,9 +3,57 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="container">
+        <div class="row">
+            <h1><%= title %></h1>
+            <p>Welcome to <%= title %></p>
+        </div>
+
+        <div class="row">
+            <form>
+                <div class="row">
+                    <label>Departing Airport: </label>
+                    <input type="text" placeholder="JFK" />
+                    <label>Budget (USD): </label>
+                    <input type="number" min="0" placeholder="100" />
+                    <label>Alliance</label>
+                    <select>
+                        <option>None</option>
+                        <option>Oneworld</option>
+                        <option>SkyTeam</option>
+                        <option>Star Alliance</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <label>Departure Date: </label>
+                    <input type="date" />
+                    <label>Return Date: </label>
+                    <input type="date" />
+                    <label>Max Layover (minutes): </label>
+                    <input type="number" min="0" placeholder="45"/>
+                    <input type="checkbox">Domestic Only</input>
+                </div>
+
+                <div class="row">
+                    <label>Continents</label>
+                    <input type="checkbox">Africa</input>
+                    <input type="checkbox">Asia</input>
+                    <input type="checkbox">Australia</input>
+                    <input type="checkbox">Europe</input>
+                    <input type="checkbox">North America</input>
+                    <input type="checkbox">South America</input>
+                </div>
+
+                <div class="row">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
   </body>
 </html>
