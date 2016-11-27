@@ -24,11 +24,7 @@
             <label>Budget (USD): </label>
             <input type="number" min="0" placeholder="100" ng-model="budget"/>
             <label>Alliance</label>
-            <select ng-model="alliance">
-              <option>None</option>
-              <option>Oneworld</option>
-              <option>SkyTeam</option>
-              <option>Star Alliance</option>
+            <select ng-model="alliance" ng-init="alliance = alliances[0]" ng-options="opt for opt in alliances">
             </select>
           </div>
 

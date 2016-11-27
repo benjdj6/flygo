@@ -24,6 +24,12 @@ app.controller('MainCtrl', [
   function($scope, flights) {
     $scope.flights = flights.tickets;
     $scope.continents = [];
+    $scope.alliances = [
+      "None",
+      "OneWorld",
+      "SkyTeam",
+      "Star Alliance"
+    ];
     $scope.getTickets = function() {
       flights.getFlights({
         origin: $scope.origin,
