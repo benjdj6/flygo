@@ -19,6 +19,7 @@ app.controller('MainCtrl', [
   'flights',
   function($scope, flights) {
     $scope.flights = flights.tickets;
+    $scope.continents = [];
     $scope.getTickets = function() {
       flights.getFlights({holder: null});
     };

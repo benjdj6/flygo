@@ -6,7 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
+  <body ng-app="flygo" ng-controller="MainCtrl">
     <div class="container">
       <div class="row">
         <h1><%= title %></h1>
@@ -14,14 +14,14 @@
       </div>
 
       <div class="row">
-        <form>
+        <form ng-submit="getTickets();">
           <div class="row">
             <label>Departing Airport: </label>
-            <input type="text" placeholder="JFK" />
+            <input type="text" placeholder="JFK" ng-model="origin"/>
             <label>Budget (USD): </label>
-            <input type="number" min="0" placeholder="100" />
+            <input type="number" min="0" placeholder="100" ng-model="budget"/>
             <label>Alliance</label>
-            <select>
+            <select ng-model="alliance">
               <option>None</option>
               <option>Oneworld</option>
               <option>SkyTeam</option>
@@ -31,12 +31,12 @@
 
           <div class="row">
             <label>Departure Date: </label>
-            <input type="date" />
+            <input type="date" ng-model="depart"/>
             <label>Return Date: </label>
-            <input type="date" />
+            <input type="date" ng-model="return"/>
             <label>Max Layover (minutes): </label>
-            <input type="number" min="0" placeholder="45"/>
-            <input type="checkbox">Domestic Only</input>
+            <input type="number" min="0" placeholder="45" ng-model="layover"/>
+            <input type="checkbox" ng-model="domestic">Domestic Only</input>
           </div>
 
           <div class="row">
