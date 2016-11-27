@@ -20,7 +20,7 @@ app.controller('MainCtrl', [
   function($scope, flights) {
     $scope.flights = flights.tickets;
     $scope.getTickets = function() {
-      flights.getFlights($scope.search);
+      flights.getFlights({holder: null});
     };
   };
 ]);
