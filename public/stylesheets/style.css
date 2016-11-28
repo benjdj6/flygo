@@ -15,6 +15,10 @@ form {
   color: #FFFCED;
 }
 
+.even {
+  background-color: #FFFCED;
+}
+
 .container-fluid .row {
   margin-left: 0px;
   margin-right: 0px;

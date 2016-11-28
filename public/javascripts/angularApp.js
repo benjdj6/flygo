@@ -2,7 +2,51 @@ var app = angular.module('flygo', []);
 
 app.factory('flights', [function() {
   var o = {
-    tickets: []
+    tickets: [
+    {
+      "CurrencyCode":"USD",
+      "LowestNonStopFare": {
+          "AirlineCodes":["DL"],
+          "Fare":862.19
+      },
+      "PricePerMile":0.4,
+      "LowestFare": {
+          "AirlineCodes":["DL"],
+          "Fare":862.19
+      },
+      "DestinationLocation":"ATL",
+      "Distance":2135,
+      "DepartureDateTime":"2016-11-27T00:00:00",
+      "ReturnDateTime":"2016-12-04T00:00:00",
+      "Links": [
+          {
+              "rel":"shop",
+              "href":"https://api.test.sabre.com/v1/shop/flights?origin=SFO&destination=ATL&departuredate=2016-11-27&returndate=2016-12-04&pointofsalecountry=US"
+          }
+      ]
+    },
+    {
+      "CurrencyCode":"USD",
+      "LowestNonStopFare": {
+          "AirlineCodes":["VX"],
+          "Fare":758.2
+      },
+      "PricePerMile":0.46,
+      "LowestFare": {
+          "AirlineCodes":["AA"],
+          "Fare":681.2
+      },
+      "DestinationLocation":"AUS",
+      "Distance":1497,
+      "DepartureDateTime":"2016-11-27T00:00:00",
+      "ReturnDateTime":"2016-12-04T00:00:00",
+      "Links": [
+          {
+              "rel":"shop",
+              "href":"https://api.test.sabre.com/v1/shop/flights?origin=SFO&destination=AUS&departuredate=2016-11-27&returndate=2016-12-04&pointofsalecountry=US"
+          }
+      ]
+    }]
   };
 
   //Sends request to Express API to get flights

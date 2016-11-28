@@ -19,3 +19,4 @@ FlyGo is for finding flights when you have dates and a budget but not a destinat
 * Implement Continet filter
 * Implement mileage run option
 * Better UI
+* Show results on page
