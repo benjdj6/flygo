@@ -23,7 +23,7 @@ router.get('/flights/:origin', function(req, res, next) {
   };
   request(options, function(err, response, body) {
     if(!err && response.statusCode == 200) {
-      res.json(response);
+      res.json((JSON.parse(response.body)).FareInfo);
     }
     else {
       res.json(response.statusCode);

@@ -22,7 +22,7 @@ app.factory('flights', ['$http', function($http) {
         alert("No Results :(");
         return;
       }
-      angular.copy((JSON.parse(data.body)).FareInfo, o.tickets);
+      angular.copy(data, o.tickets);
     });
 
   };
