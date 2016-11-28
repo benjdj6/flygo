@@ -54,6 +54,14 @@ app.controller('MainCtrl', [
         domestic: $scope.domestic
       });
     };
+    $scope.lessOrEqual = function(fare) {
+      return function(item) {
+        if (!$scope.budget) {
+          return true;
+        }
+        return item.LowestFare.Fare <= $scope.budget;
+      }
+    }
   }
 ]);
 

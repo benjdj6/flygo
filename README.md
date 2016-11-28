@@ -27,7 +27,6 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 
 ###TODO
 
-* Connect Angular to Node server
 * Implement Continent filter
 * Implement mileage run option
 * Better UI
