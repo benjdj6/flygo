@@ -17,6 +17,7 @@ router.get('/flights/:origin', function(req, res, next) {
     },
     qs: {
       'origin': req.params.origin,
+      'maxfare': req.query.maxfare,
       'lengthofstay': 7
     }
   };
