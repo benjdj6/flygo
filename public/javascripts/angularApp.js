@@ -1,6 +1,6 @@
 var app = angular.module('flygo', []);
 
-app.factory('flights', [function() {
+app.factory('flights', ['$http', function($http) {
   var o = {
     tickets: [
     {
@@ -55,7 +55,13 @@ app.factory('flights', [function() {
       alert("No origin defined");
       return;
     }
-    console.log("request to get flights");
+    return $http({
+      method: 'GET',
+      url: '/flights/' + query.origin,
+    }).success(function(data) {
+      angular.copy((JSON.parse(data.body)).FareInfo, o.tickets);
+    });
+
   };
 
   return o;
