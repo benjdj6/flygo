@@ -56,8 +56,8 @@
         </form>
       </div>
       <div ng-repeat="flight in flights">
-        <div class="row" ng-class-odd="'odd'" ng-class-even="'even'">
-          {{flight.DestinationLocation}} - ${{flight.LowestFare.Fare}}
+        <div class="row" ng-class-odd="'odd'" ng-class-even="'even'" ng-show="{{flight.LowestFare.Fare}}">
+          {{flight.DestinationLocation}} for ${{flight.LowestFare.Fare}}
         </div>
       </div>
     </div>
