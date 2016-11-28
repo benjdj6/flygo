@@ -23,3 +23,8 @@ form {
   margin-left: 0px;
   margin-right: 0px;
 }
+
+.destinations:hover {
+  background-color: #009393;
+  color: #FFFCED;
+}
