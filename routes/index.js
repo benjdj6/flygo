@@ -22,8 +22,10 @@ router.get('/flights/:origin', function(req, res, next) {
   };
   request(options, function(err, response, body) {
     if(!err && response.statusCode == 200) {
-      console.log("here");
       res.json(response);
+    }
+    else {
+      res.json(response.statusCode);
     }
   });
 });
