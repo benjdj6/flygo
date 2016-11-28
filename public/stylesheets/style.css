@@ -1,8 +1,21 @@
 body {
-  padding: 50px;
   font: 14px 'Lato', Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+form {
+  margin-top: 5px;
+}
+
+.nav {
+  background-color: #009393;
+  color: #FFFCED;
+}
+
+.container-fluid .row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
