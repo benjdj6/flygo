@@ -2927,62 +2927,6 @@
    "location" : "Yuma, AZ"
 },
 {
-   "code" : "rov",
-   "location" : "Canadian"
-},
-{
-   "code" : "lbe",
-   "location" : "AB -"
-},
-{
-   "code" : "olu",
-   "location" : "BC - British"
-},
-{
-   "code" : "ani",
-   "location" : "MB -"
-},
-{
-   "code" : "run",
-   "location" : "NB - New"
-},
-{
-   "code" : "ewf",
-   "location" : "NL -"
-},
-{
-   "code" : "cot",
-   "location" : "NS - Nova"
-},
-{
-   "code" : "err",
-   "location" : "NT - Northwest"
-},
-{
-   "code" : "una",
-   "location" : "NU -"
-},
-{
-   "code" : "nta",
-   "location" : "ON -"
-},
-{
-   "code" : "sla",
-   "location" : "PE - Prince Edward"
-},
-{
-   "code" : "ueb",
-   "location" : "QC -"
-},
-{
-   "code" : "ask",
-   "location" : "SK -"
-},
-{
-   "code" : "err",
-   "location" : "YT - Yukon"
-},
-{
    "code" : "YXX",
    "location" : "Abbotsford, BC"
 },
