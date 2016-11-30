@@ -13,10 +13,7 @@ app.factory('flights', ['$http', function($http) {
     }
     return $http({
       method: 'GET',
-      url: '/flights/' + query.origin,
-      params: {
-        maxfare: query.budget
-      }
+      url: '/flights/' + query.origin
     }).success(function(data) {
       if(data == 404) {
         alert("No Results :(");
@@ -46,7 +43,6 @@ app.controller('MainCtrl', [
     $scope.getTickets = function() {
       flights.getFlights({
         origin: $scope.origin,
-        budget: $scope.budget,
         alliance: $scope.alliance,
         depart: $scope.depart,
         return: $scope.return,
