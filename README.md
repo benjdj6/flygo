@@ -31,3 +31,7 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 * Implement mileage run option
 * Better UI
 * Show airlines by name
+
+###Sources
+
+Airfare data is sources from [Sabre](https://developer.sabre.com), and airport and airline codes are originally sourced from [OpenFlights.org](http://openflights.org/data.html) and modified/converted into json files by me.
