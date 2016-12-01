@@ -1,6 +1,7 @@
 var express = require('express');
 var request = require('request');
 var airports = require('../data/airports.json');
+var airlines = require('../data/airlines.json');
 
 var router = express.Router();
 
@@ -32,7 +33,20 @@ router.get('/flights/:origin', function(req, res, next) {
             break;
           }
         }
+        if(flights[i].LowestFare.AirlineCodes) {
+          flights[i].LowestFare.AirlineName = flights[i].LowestFare.AirlineCodes[0];
+          for(k = 0; k < airlines.length; ++k) {
+            if(airlines[k].code == flights[i].LowestFare.AirlineCodes[0]) {
+              flights[i].LowestFare.AirlineName = airlines[k].name;
+              break;
+            }
+          }
+        }
+        else {
+          flights[i].LowestFare.AirlineName = "Unknown";
+        }
       }
+      console.log(flights);
       res.json(flights);
     }
     else {
