@@ -58,7 +58,7 @@
       <div ng-repeat="flight in flights | filter: lessOrEqual(LowestFare.Fare) | orderBy: 'LowestFare.Fare'">
         <div class="row destinations" ng-class-odd="'odd'" 
           ng-class-even="'even'" ng-show="{{flight.LowestFare.Fare}}">
-          {{flight.DestinationLocation}} for ${{flight.LowestFare.Fare}}
+          {{flight.DestinationLocation}} for ${{flight.LowestFare.Fare}} on {{flight.LowestFare.AirlineName}}
         </div>
       </div>
     </div>
