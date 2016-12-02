@@ -1,3424 +1,4280 @@
 [{
   "code" : "Q5",
-  "name" : "40-Mile Air"
+  "name" : "40-Mile Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "AN",
-  "name" : "Ansett Australia"
+  "name" : "Ansett Australia",
+  "alliance" : "N/A"
 },
 {
   "code" : "1B",
-  "name" : "Abacus International"
+  "name" : "Abacus International",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZI",
-  "name" : "Aigle Azur"
+  "name" : "Aigle Azur",
+  "alliance" : "N/A"
 },
 {
   "code" : "AQ",
-  "name" : "Aloha Airlines"
+  "name" : "Aloha Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "AA",
-  "name" : "American Airlines"
+  "name" : "American Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "OZ",
-  "name" : "Asiana Airlines"
+  "name" : "Asiana Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "8U",
-  "name" : "Afriqiyah Airways"
+  "name" : "Afriqiyah Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "Q9",
-  "name" : "Afrinat International Airlines"
+  "name" : "Afrinat International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "G4",
-  "name" : "Allegiant Air"
+  "name" : "Allegiant Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "GB",
-  "name" : "ABX Air"
+  "name" : "ABX Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "7A",
-  "name" : "Aztec Worldwide Airlines"
+  "name" : "Aztec Worldwide Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "8T",
-  "name" : "Air Tindi"
+  "name" : "Air Tindi",
+  "alliance" : "N/A"
 },
 {
   "code" : "JP",
-  "name" : "Adria Airways"
+  "name" : "Adria Airways",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "UX",
-  "name" : "Air Europa"
+  "name" : "Air Europa",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "A3",
-  "name" : "Aegean Airlines"
+  "name" : "Aegean Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "KI",
-  "name" : "Air Atlantique"
+  "name" : "Air Atlantique",
+  "alliance" : "N/A"
 },
 {
   "code" : "PE",
-  "name" : "Air Europe"
+  "name" : "Air Europe",
+  "alliance" : "N/A"
 },
 {
   "code" : "KO",
-  "name" : "Alaska Central Express"
+  "name" : "Alaska Central Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "5W",
-  "name" : "Astraeus"
+  "name" : "Astraeus",
+  "alliance" : "N/A"
 },
 {
   "code" : "QQ",
-  "name" : "Alliance Airlines"
+  "name" : "Alliance Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FG",
-  "name" : "Ariana Afghan Airlines"
+  "name" : "Ariana Afghan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "SU",
-  "name" : "Aeroflot Russian Airlines"
+  "name" : "Aeroflot Russian Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "AF",
-  "name" : "Air France"
+  "name" : "Air France",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "SB",
-  "name" : "Air Caledonie International"
+  "name" : "Air Caledonie International",
+  "alliance" : "N/A"
 },
 {
   "code" : "2O",
-  "name" : "Air Salone"
+  "name" : "Air Salone",
+  "alliance" : "N/A"
 },
 {
   "code" : "2Q",
-  "name" : "Air Cargo Carriers"
+  "name" : "Air Cargo Carriers",
+  "alliance" : "N/A"
 },
 {
   "code" : "SW",
-  "name" : "Air Namibia"
+  "name" : "Air Namibia",
+  "alliance" : "N/A"
 },
 {
   "code" : "5D",
-  "name" : "Aerolitoral"
+  "name" : "Aerolitoral",
+  "alliance" : "N/A"
 },
 {
   "code" : "1A",
-  "name" : "Amadeus Global Travel Distribution"
+  "name" : "Amadeus Global Travel Distribution",
+  "alliance" : "N/A"
 },
 {
   "code" : "7T",
-  "name" : "Air Glaciers"
+  "name" : "Air Glaciers",
+  "alliance" : "N/A"
 },
 {
   "code" : "8A",
-  "name" : "Atlas Blue"
+  "name" : "Atlas Blue",
+  "alliance" : "N/A"
 },
 {
   "code" : "GD",
-  "name" : "Air Alpha Greenland"
+  "name" : "Air Alpha Greenland",
+  "alliance" : "N/A"
 },
 {
   "code" : "LD",
-  "name" : "Air Hong Kong"
+  "name" : "Air Hong Kong",
+  "alliance" : "N/A"
 },
 {
   "code" : "HT",
-  "name" : "Aeromist-Kharkiv"
+  "name" : "Aeromist-Kharkiv",
+  "alliance" : "N/A"
 },
 {
   "code" : "J2",
-  "name" : "Azerbaijan Airlines"
+  "name" : "Azerbaijan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "U3",
-  "name" : "Avies"
+  "name" : "Avies",
+  "alliance" : "N/A"
 },
 {
   "code" : "5A",
-  "name" : "Alpine Air Express"
+  "name" : "Alpine Air Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "AB",
-  "name" : "Air Berlin"
+  "name" : "Air Berlin",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "AI",
-  "name" : "Air India Limited"
+  "name" : "Air India Limited",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "CC",
-  "name" : "Air Atlanta Icelandic"
+  "name" : "Air Atlanta Icelandic",
+  "alliance" : "N/A"
 },
 {
   "code" : "TN",
-  "name" : "Air Tahiti Nui"
+  "name" : "Air Tahiti Nui",
+  "alliance" : "N/A"
 },
 {
   "code" : "W4",
-  "name" : "Aero Services Executive"
+  "name" : "Aero Services Executive",
+  "alliance" : "N/A"
 },
 {
   "code" : "IZ",
-  "name" : "Arkia Israel Airlines"
+  "name" : "Arkia Israel Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "JM",
-  "name" : "Air Jamaica"
+  "name" : "Air Jamaica",
+  "alliance" : "N/A"
 },
 {
   "code" : "AP",
-  "name" : "Air One"
+  "name" : "Air One",
+  "alliance" : "N/A"
 },
 {
   "code" : "S2",
-  "name" : "Air Sahara"
+  "name" : "Air Sahara",
+  "alliance" : "N/A"
 },
 {
   "code" : "KM",
-  "name" : "Air Malta"
+  "name" : "Air Malta",
+  "alliance" : "N/A"
 },
 {
   "code" : "M6",
-  "name" : "Amerijet International"
+  "name" : "Amerijet International",
+  "alliance" : "N/A"
 },
 {
   "code" : "NQ",
-  "name" : "Air Japan"
+  "name" : "Air Japan",
+  "alliance" : "N/A"
 },
 {
   "code" : "4A",
-  "name" : "Air Kiribati"
+  "name" : "Air Kiribati",
+  "alliance" : "N/A"
 },
 {
   "code" : "EH",
-  "name" : "Air Nippon Network Co. Ltd."
+  "name" : "Air Nippon Network Co. Ltd.",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZW",
-  "name" : "Air Wisconsin"
+  "name" : "Air Wisconsin",
+  "alliance" : "N/A"
 },
 {
   "code" : "QM",
-  "name" : "Air Malawi"
+  "name" : "Air Malawi",
+  "alliance" : "N/A"
 },
 {
   "code" : "BM",
-  "name" : "Air Sicilia"
+  "name" : "Air Sicilia",
+  "alliance" : "N/A"
 },
 {
   "code" : "NX",
-  "name" : "Air Macau"
+  "name" : "Air Macau",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZV",
-  "name" : "Air Midwest"
+  "name" : "Air Midwest",
+  "alliance" : "N/A"
 },
 {
   "code" : "HM",
-  "name" : "Air Seychelles"
+  "name" : "Air Seychelles",
+  "alliance" : "N/A"
 },
 {
   "code" : "AM",
-  "name" : "AeroMéxico"
+  "name" : "AeroMéxico",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "NH",
-  "name" : "All Nippon Airways"
+  "name" : "All Nippon Airways",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "YW",
-  "name" : "Air Nostrum"
+  "name" : "Air Nostrum",
+  "alliance" : "N/A"
 },
 {
   "code" : "PX",
-  "name" : "Air Niugini"
+  "name" : "Air Niugini",
+  "alliance" : "N/A"
 },
 {
   "code" : "G9",
-  "name" : "Air Arabia"
+  "name" : "Air Arabia",
+  "alliance" : "N/A"
 },
 {
   "code" : "AC",
-  "name" : "Air Canada"
+  "name" : "Air Canada",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "BT",
-  "name" : "Air Baltic"
+  "name" : "Air Baltic",
+  "alliance" : "N/A"
 },
 {
   "code" : "EL",
-  "name" : "Air Nippon"
+  "name" : "Air Nippon",
+  "alliance" : "N/A"
 },
 {
   "code" : "TL",
-  "name" : "Airnorth"
+  "name" : "Airnorth",
+  "alliance" : "N/A"
 },
 {
   "code" : "4N",
-  "name" : "Air North Charter - Canada"
+  "name" : "Air North Charter - Canada",
+  "alliance" : "N/A"
 },
 {
   "code" : "NZ",
-  "name" : "Air New Zealand"
+  "name" : "Air New Zealand",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "J6",
-  "name" : "AVCOM"
+  "name" : "AVCOM",
+  "alliance" : "N/A"
 },
 {
   "code" : "OE",
-  "name" : "Asia Overnight Express"
+  "name" : "Asia Overnight Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "GV",
-  "name" : "Aero Flight"
+  "name" : "Aero Flight",
+  "alliance" : "N/A"
 },
 {
   "code" : "JW",
-  "name" : "Arrow Air"
+  "name" : "Arrow Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "2B",
-  "name" : "Aerocondor"
+  "name" : "Aerocondor",
+  "alliance" : "N/A"
 },
 {
   "code" : "4C",
-  "name" : "Aires"
+  "name" : "Aires",
+  "alliance" : "N/A"
 },
 {
   "code" : "AR",
-  "name" : "Aerolineas Argentinas"
+  "name" : "Aerolineas Argentinas",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "QN",
-  "name" : "Air Armenia"
+  "name" : "Air Armenia",
+  "alliance" : "N/A"
 },
 {
   "code" : "AS",
-  "name" : "Alaska Airlines"
+  "name" : "Alaska Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "4D",
-  "name" : "Air Sinai"
+  "name" : "Air Sinai",
+  "alliance" : "N/A"
 },
 {
   "code" : "OB",
-  "name" : "Astrakhan Airlines"
+  "name" : "Astrakhan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "TC",
-  "name" : "Air Tanzania"
+  "name" : "Air Tanzania",
+  "alliance" : "N/A"
 },
 {
   "code" : "2J",
-  "name" : "Air Burkina"
+  "name" : "Air Burkina",
+  "alliance" : "N/A"
 },
 {
   "code" : "FO",
-  "name" : "Airlines Of Tasmania"
+  "name" : "Airlines Of Tasmania",
+  "alliance" : "N/A"
 },
 {
   "code" : "PJ",
-  "name" : "Air Saint Pierre"
+  "name" : "Air Saint Pierre",
+  "alliance" : "N/A"
 },
 {
   "code" : "8C",
-  "name" : "Air Transport International"
+  "name" : "Air Transport International",
+  "alliance" : "N/A"
 },
 {
   "code" : "OS",
-  "name" : "Austrian Airlines"
+  "name" : "Austrian Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "IQ",
-  "name" : "Augsburg Airways"
+  "name" : "Augsburg Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "RU",
-  "name" : "AirBridge Cargo"
+  "name" : "AirBridge Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "5N",
-  "name" : "Aeroflot-Nord"
+  "name" : "Aeroflot-Nord",
+  "alliance" : "N/A"
 },
 {
   "code" : "GR",
-  "name" : "Aurigny Air Services"
+  "name" : "Aurigny Air Services",
+  "alliance" : "N/A"
 },
 {
   "code" : "AU",
-  "name" : "Austral Lineas Aereas"
+  "name" : "Austral Lineas Aereas",
+  "alliance" : "N/A"
 },
 {
   "code" : "AV",
-  "name" : "Avianca - Aerovias Nacionales de Colombia"
+  "name" : "Avianca - Aerovias Nacionales de Colombia",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "NF",
-  "name" : "Air Vanuatu"
+  "name" : "Air Vanuatu",
+  "alliance" : "N/A"
 },
 {
   "code" : "K8",
-  "name" : "Airlink Zambia"
+  "name" : "Airlink Zambia",
+  "alliance" : "N/A"
 },
 {
   "code" : "B9",
-  "name" : "Air Bangladesh"
+  "name" : "Air Bangladesh",
+  "alliance" : "N/A"
 },
 {
   "code" : "7E",
-  "name" : "Aeroline GmbH"
+  "name" : "Aeroline GmbH",
+  "alliance" : "N/A"
 },
 {
   "code" : "6G",
-  "name" : "Air Wales"
+  "name" : "Air Wales",
+  "alliance" : "N/A"
 },
 {
   "code" : "TX",
-  "name" : "Air Caraïbes"
+  "name" : "Air Caraïbes",
+  "alliance" : "N/A"
 },
 {
   "code" : "IX",
-  "name" : "Air India Express"
+  "name" : "Air India Express",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "HJ",
-  "name" : "Asian Express Airlines"
+  "name" : "Asian Express Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "AK",
-  "name" : "AirAsia"
+  "name" : "AirAsia",
+  "alliance" : "N/A"
 },
 {
   "code" : "3G",
-  "name" : "Atlant-Soyuz Airlines"
+  "name" : "Atlant-Soyuz Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "AZ",
-  "name" : "Alitalia"
+  "name" : "Alitalia",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "ZE",
-  "name" : "Arcus-Air Logistic"
+  "name" : "Arcus-Air Logistic",
+  "alliance" : "N/A"
 },
 {
   "code" : "Z8",
-  "name" : "Amaszonas"
+  "name" : "Amaszonas",
+  "alliance" : "N/A"
 },
 {
   "code" : "UM",
-  "name" : "Air Zimbabwe"
+  "name" : "Air Zimbabwe",
+  "alliance" : "N/A"
 },
 {
   "code" : "R7",
-  "name" : "Aserca Airlines"
+  "name" : "Aserca Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FV",
-  "name" : "Rossiya-Russian Airlines"
+  "name" : "Rossiya-Russian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MQ",
-  "name" : "American Eagle Airlines"
+  "name" : "American Eagle Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FF",
-  "name" : "Airshop"
+  "name" : "Airshop",
+  "alliance" : "N/A"
 },
 {
   "code" : "ML",
-  "name" : "African Transport Trading and Investment Company"
+  "name" : "African Transport Trading and Investment Company",
+  "alliance" : "N/A"
 },
 {
   "code" : "BP",
-  "name" : "Air Botswana"
+  "name" : "Air Botswana",
+  "alliance" : "N/A"
 },
 {
   "code" : "VT",
-  "name" : "Air Tahiti"
+  "name" : "Air Tahiti",
+  "alliance" : "N/A"
 },
 {
   "code" : "3N",
-  "name" : "Air Urga"
+  "name" : "Air Urga",
+  "alliance" : "N/A"
 },
 {
   "code" : "VL",
-  "name" : "Air VIA"
+  "name" : "Air VIA",
+  "alliance" : "N/A"
 },
 {
   "code" : "FK",
-  "name" : "Africa West"
+  "name" : "Africa West",
+  "alliance" : "N/A"
 },
 {
   "code" : "G2",
-  "name" : "Avirex"
+  "name" : "Avirex",
+  "alliance" : "N/A"
 },
 {
   "code" : "V8",
-  "name" : "ATRAN Cargo Airlines"
+  "name" : "ATRAN Cargo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "CA",
-  "name" : "Air China"
+  "name" : "Air China",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "Q6",
-  "name" : "Aero Condor Peru"
+  "name" : "Aero Condor Peru",
+  "alliance" : "N/A"
 },
 {
   "code" : "5F",
-  "name" : "Arctic Circle Air Service"
+  "name" : "Arctic Circle Air Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "NV",
-  "name" : "Air Central"
+  "name" : "Air Central",
+  "alliance" : "N/A"
 },
 {
   "code" : "CV",
-  "name" : "Air Chathams"
+  "name" : "Air Chathams",
+  "alliance" : "N/A"
 },
 {
   "code" : "CW",
-  "name" : "Air Marshall Islands"
+  "name" : "Air Marshall Islands",
+  "alliance" : "N/A"
 },
 {
   "code" : "AH",
-  "name" : "Air Algerie"
+  "name" : "Air Algerie",
+  "alliance" : "N/A"
 },
 {
   "code" : "ER",
-  "name" : "Astar Air Cargo"
+  "name" : "Astar Air Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "EN",
-  "name" : "Air Dolomiti"
+  "name" : "Air Dolomiti",
+  "alliance" : "N/A"
 },
 {
   "code" : "D9",
-  "name" : "Aeroflot-Don"
+  "name" : "Aeroflot-Don",
+  "alliance" : "N/A"
 },
 {
   "code" : "EE",
-  "name" : "Aero Airlines"
+  "name" : "Aero Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "4F",
-  "name" : "Air City"
+  "name" : "Air City",
+  "alliance" : "N/A"
 },
 {
   "code" : "EI",
-  "name" : "Aer Lingus"
+  "name" : "Aer Lingus",
+  "alliance" : "N/A"
 },
 {
   "code" : "OF",
-  "name" : "Air Finland"
+  "name" : "Air Finland",
+  "alliance" : "N/A"
 },
 {
   "code" : "FJ",
-  "name" : "Air Pacific"
+  "name" : "Air Pacific",
+  "alliance" : "N/A"
 },
 {
   "code" : "RC",
-  "name" : "Atlantic Airways"
+  "name" : "Atlantic Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "NY",
-  "name" : "Air Iceland"
+  "name" : "Air Iceland",
+  "alliance" : "N/A"
 },
 {
   "code" : "2P",
-  "name" : "Air Philippines"
+  "name" : "Air Philippines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZX",
-  "name" : "Air Georgian"
+  "name" : "Air Georgian",
+  "alliance" : "N/A"
 },
 {
   "code" : "2U",
-  "name" : "Air Guinee Express"
+  "name" : "Air Guinee Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "0A",
-  "name" : "Amber Air"
+  "name" : "Amber Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "DA",
-  "name" : "Air Georgia"
+  "name" : "Air Georgia",
+  "alliance" : "N/A"
 },
 {
   "code" : "GL",
-  "name" : "Air Greenland"
+  "name" : "Air Greenland",
+  "alliance" : "N/A"
 },
 {
   "code" : "LL",
-  "name" : "Allegro"
+  "name" : "Allegro",
+  "alliance" : "N/A"
 },
 {
   "code" : "5Y",
-  "name" : "Atlas Air"
+  "name" : "Atlas Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "GG",
-  "name" : "Air Guyane"
+  "name" : "Air Guyane",
+  "alliance" : "N/A"
 },
 {
   "code" : "W9",
-  "name" : "Air Bagan"
+  "name" : "Air Bagan",
+  "alliance" : "N/A"
 },
 {
   "code" : "IP",
-  "name" : "Atyrau Air Ways"
+  "name" : "Atyrau Air Ways",
+  "alliance" : "N/A"
 },
 {
   "code" : "QK",
-  "name" : "Air Canada Jazz"
+  "name" : "Air Canada Jazz",
+  "alliance" : "N/A"
 },
 {
   "code" : "KK",
-  "name" : "Atlasjet"
+  "name" : "Atlasjet",
+  "alliance" : "N/A"
 },
 {
   "code" : "JS",
-  "name" : "Air Koryo"
+  "name" : "Air Koryo",
+  "alliance" : "N/A"
 },
 {
   "code" : "KC",
-  "name" : "Air Astana"
+  "name" : "Air Astana",
+  "alliance" : "N/A"
 },
 {
   "code" : "LV",
-  "name" : "Albanian Airlines"
+  "name" : "Albanian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "D4",
-  "name" : "Alidaunia"
+  "name" : "Alidaunia",
+  "alliance" : "N/A"
 },
 {
   "code" : "CD",
-  "name" : "Alliance Air"
+  "name" : "Alliance Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "A6",
-  "name" : "Air Alps Aviation"
+  "name" : "Air Alps Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "TD",
-  "name" : "Atlantis European Airways"
+  "name" : "Atlantis European Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "L8",
-  "name" : "Air Luxor GB"
+  "name" : "Air Luxor GB",
+  "alliance" : "N/A"
 },
 {
   "code" : "LK",
-  "name" : "Air Luxor"
+  "name" : "Air Luxor",
+  "alliance" : "N/A"
 },
 {
   "code" : "MK",
-  "name" : "Air Mauritius"
+  "name" : "Air Mauritius",
+  "alliance" : "N/A"
 },
 {
   "code" : "MD",
-  "name" : "Air Madagascar"
+  "name" : "Air Madagascar",
+  "alliance" : "N/A"
 },
 {
   "code" : "9U",
-  "name" : "Air Moldova"
+  "name" : "Air Moldova",
+  "alliance" : "N/A"
 },
 {
   "code" : "A7",
-  "name" : "Air Plus Comet"
+  "name" : "Air Plus Comet",
+  "alliance" : "N/A"
 },
 {
   "code" : "MR",
-  "name" : "Air Mauritanie"
+  "name" : "Air Mauritanie",
+  "alliance" : "N/A"
 },
 {
   "code" : "F4",
-  "name" : "Albarka Air"
+  "name" : "Albarka Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "AJ",
-  "name" : "Aero Contractors"
+  "name" : "Aero Contractors",
+  "alliance" : "N/A"
 },
 {
   "code" : "8Y",
-  "name" : "Air Burundi"
+  "name" : "Air Burundi",
+  "alliance" : "N/A"
 },
 {
   "code" : "OT",
-  "name" : "Aeropelican Air Services"
+  "name" : "Aeropelican Air Services",
+  "alliance" : "N/A"
 },
 {
   "code" : "QD",
-  "name" : "Air Class Lineas Aereas"
+  "name" : "Air Class Lineas Aereas",
+  "alliance" : "N/A"
 },
 {
   "code" : "4Y",
-  "name" : "Airbus France"
+  "name" : "Airbus France",
+  "alliance" : "N/A"
 },
 {
   "code" : "MC",
-  "name" : "Air Mobility Command"
+  "name" : "Air Mobility Command",
+  "alliance" : "N/A"
 },
 {
   "code" : "RE",
-  "name" : "Aer Arann"
+  "name" : "Aer Arann",
+  "alliance" : "N/A"
 },
 {
   "code" : "UU",
-  "name" : "Air Austral"
+  "name" : "Air Austral",
+  "alliance" : "N/A"
 },
 {
   "code" : "6K",
-  "name" : "Asian Spirit"
+  "name" : "Asian Spirit",
+  "alliance" : "N/A"
 },
 {
   "code" : "A5",
-  "name" : "Airlinair"
+  "name" : "Airlinair",
+  "alliance" : "N/A"
 },
 {
   "code" : "QL",
-  "name" : "Aero Lanka"
+  "name" : "Aero Lanka",
+  "alliance" : "N/A"
 },
 {
   "code" : "MV",
-  "name" : "Armenian International Airways"
+  "name" : "Armenian International Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "P5",
-  "name" : "AeroRep"
+  "name" : "AeroRep",
+  "alliance" : "N/A"
 },
 {
   "code" : "BF",
-  "name" : "Aero-Service"
+  "name" : "Aero-Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "5L",
-  "name" : "Aerosur"
+  "name" : "Aerosur",
+  "alliance" : "N/A"
 },
 {
   "code" : "EX",
-  "name" : "Air Santo Domingo"
+  "name" : "Air Santo Domingo",
+  "alliance" : "N/A"
 },
 {
   "code" : "JR",
-  "name" : "Aero California"
+  "name" : "Aero California",
+  "alliance" : "N/A"
 },
 {
   "code" : "Z3",
-  "name" : "Avient Aviation"
+  "name" : "Avient Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "GM",
-  "name" : "Air Slovakia"
+  "name" : "Air Slovakia",
+  "alliance" : "N/A"
 },
 {
   "code" : "R3",
-  "name" : "Aircompany Yakutia"
+  "name" : "Aircompany Yakutia",
+  "alliance" : "N/A"
 },
 {
   "code" : "VW",
-  "name" : "Aeromar"
+  "name" : "Aeromar",
+  "alliance" : "N/A"
 },
 {
   "code" : "JY",
-  "name" : "Air Turks and Caicos"
+  "name" : "Air Turks and Caicos",
+  "alliance" : "N/A"
 },
 {
   "code" : "OR",
-  "name" : "Arkefly"
+  "name" : "Arkefly",
+  "alliance" : "N/A"
 },
 {
   "code" : "CG",
-  "name" : "Airlines PNG"
+  "name" : "Airlines PNG",
+  "alliance" : "N/A"
 },
 {
   "code" : "TY",
-  "name" : "Air Cal"
+  "name" : "Air Cal",
+  "alliance" : "N/A"
 },
 {
   "code" : "FL",
-  "name" : "AirTran Airways"
+  "name" : "AirTran Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "TS",
-  "name" : "Air Transat"
+  "name" : "Air Transat",
+  "alliance" : "N/A"
 },
 {
   "code" : "EC",
-  "name" : "Avialeasing Aviation Company"
+  "name" : "Avialeasing Aviation Company",
+  "alliance" : "N/A"
 },
 {
   "code" : "VO",
-  "name" : "Tyrolean Airways"
+  "name" : "Tyrolean Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "DW",
-  "name" : "Aero-Charter Ukraine"
+  "name" : "Aero-Charter Ukraine",
+  "alliance" : "N/A"
 },
 {
   "code" : "6U",
-  "name" : "Air Ukraine"
+  "name" : "Air Ukraine",
+  "alliance" : "N/A"
 },
 {
   "code" : "2K",
-  "name" : "Aerolineas Galapagos (Aerogal)"
+  "name" : "Aerolineas Galapagos (Aerogal)",
+  "alliance" : "N/A"
 },
 {
   "code" : "6R",
-  "name" : "Alrosa Mirny Air Enterprise"
+  "name" : "Alrosa Mirny Air Enterprise",
+  "alliance" : "N/A"
 },
 {
   "code" : "BA",
-  "name" : "British Airways"
+  "name" : "British Airways",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "BG",
-  "name" : "Biman Bangladesh Airlines"
+  "name" : "Biman Bangladesh Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "B4",
-  "name" : "BACH Flugbetriebsges"
+  "name" : "BACH Flugbetriebsges",
+  "alliance" : "N/A"
 },
 {
   "code" : "BZ",
-  "name" : "Blue Dart Aviation"
+  "name" : "Blue Dart Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "JA",
-  "name" : "B&H Airlines"
+  "name" : "B&H Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "J4",
-  "name" : "Buffalo Airways"
+  "name" : "Buffalo Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "A8",
-  "name" : "Benin Golf Air"
+  "name" : "Benin Golf Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "4T",
-  "name" : "Belair Airlines"
+  "name" : "Belair Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UP",
-  "name" : "Bahamasair"
+  "name" : "Bahamasair",
+  "alliance" : "N/A"
 },
 {
   "code" : "E6",
-  "name" : "Bringer Air Cargo Taxi Aereo"
+  "name" : "Bringer Air Cargo Taxi Aereo",
+  "alliance" : "N/A"
 },
 {
   "code" : "LZ",
-  "name" : "Balkan Bulgarian Airlines"
+  "name" : "Balkan Bulgarian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "BS",
-  "name" : "British International Helicopters"
+  "name" : "British International Helicopters",
+  "alliance" : "N/A"
 },
 {
   "code" : "PG",
-  "name" : "Bangkok Airways"
+  "name" : "Bangkok Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "KF",
-  "name" : "Blue1"
+  "name" : "Blue1",
+  "alliance" : "N/A"
 },
 {
   "code" : "JV",
-  "name" : "Bearskin Lake Air Service"
+  "name" : "Bearskin Lake Air Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "B3",
-  "name" : "Bellview Airlines"
+  "name" : "Bellview Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "BD",
-  "name" : "bmi"
+  "name" : "bmi",
+  "alliance" : "N/A"
 },
 {
   "code" : "CH",
-  "name" : "Bemidji Airlines"
+  "name" : "Bemidji Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "BO",
-  "name" : "Bouraq Indonesia Airlines"
+  "name" : "Bouraq Indonesia Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "BV",
-  "name" : "Blue Panorama Airlines"
+  "name" : "Blue Panorama Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "7R",
-  "name" : "BRA-Transportes Aereos"
+  "name" : "BRA-Transportes Aereos",
+  "alliance" : "N/A"
 },
 {
   "code" : "8E",
-  "name" : "Bering Air"
+  "name" : "Bering Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "B2",
-  "name" : "Belavia Belarusian Airlines"
+  "name" : "Belavia Belarusian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "GQ",
-  "name" : "Big Sky Airlines"
+  "name" : "Big Sky Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "V9",
-  "name" : "BAL Bashkirian Airlines"
+  "name" : "BAL Bashkirian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "J8",
-  "name" : "Berjaya Air"
+  "name" : "Berjaya Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "QW",
-  "name" : "Blue Wings"
+  "name" : "Blue Wings",
+  "alliance" : "N/A"
 },
 {
   "code" : "DB",
-  "name" : "Brit Air"
+  "name" : "Brit Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "SN",
-  "name" : "Brussels Airlines"
+  "name" : "Brussels Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "NT",
-  "name" : "Binter Canarias"
+  "name" : "Binter Canarias",
+  "alliance" : "N/A"
 },
 {
   "code" : "0B",
-  "name" : "Blue Air"
+  "name" : "Blue Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "KJ",
-  "name" : "British Mediterranean Airways"
+  "name" : "British Mediterranean Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "FB",
-  "name" : "Bulgaria Air"
+  "name" : "Bulgaria Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "8N",
-  "name" : "Barents AirLink"
+  "name" : "Barents AirLink",
+  "alliance" : "N/A"
 },
 {
   "code" : "5C",
-  "name" : "CAL Cargo Air Lines"
+  "name" : "CAL Cargo Air Lines",
+  "alliance" : "N/A"
 },
 {
   "code" : "AW",
-  "name" : "CHC Airways"
+  "name" : "CHC Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "MO",
-  "name" : "Calm Air"
+  "name" : "Calm Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "R9",
-  "name" : "Camai Air"
+  "name" : "Camai Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "UY",
-  "name" : "Cameroon Airlines"
+  "name" : "Cameroon Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "C6",
-  "name" : "CanJet"
+  "name" : "CanJet",
+  "alliance" : "N/A"
 },
 {
   "code" : "5T",
-  "name" : "Canadian North"
+  "name" : "Canadian North",
+  "alliance" : "N/A"
 },
 {
   "code" : "W2",
-  "name" : "Canadian Western Airlines"
+  "name" : "Canadian Western Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "9K",
-  "name" : "Cape Air"
+  "name" : "Cape Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "W8",
-  "name" : "Cargojet Airways"
+  "name" : "Cargojet Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "BW",
-  "name" : "Caribbean Airlines"
+  "name" : "Caribbean Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "8B",
-  "name" : "Caribbean Star Airlines"
+  "name" : "Caribbean Star Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "V3",
-  "name" : "Carpatair"
+  "name" : "Carpatair",
+  "alliance" : "N/A"
 },
 {
   "code" : "RV",
-  "name" : "Caspian Airlines"
+  "name" : "Caspian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "CX",
-  "name" : "Cathay Pacific"
+  "name" : "Cathay Pacific",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "KX",
-  "name" : "Cayman Airways"
+  "name" : "Cayman Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "5J",
-  "name" : "Cebu Pacific"
+  "name" : "Cebu Pacific",
+  "alliance" : "N/A"
 },
 {
   "code" : "7N",
-  "name" : "Centavia"
+  "name" : "Centavia",
+  "alliance" : "N/A"
 },
 {
   "code" : "WE",
-  "name" : "Centurion Air Cargo"
+  "name" : "Centurion Air Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "OP",
-  "name" : "Chalk's Ocean Airways"
+  "name" : "Chalk's Ocean Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "MG",
-  "name" : "Champion Air"
+  "name" : "Champion Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "2Z",
-  "name" : "Changan Airlines"
+  "name" : "Changan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "C8",
-  "name" : "Chicago Express"
+  "name" : "Chicago Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "CI",
-  "name" : "China Airlines"
+  "name" : "China Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "CK",
-  "name" : "China Cargo Airlines"
+  "name" : "China Cargo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MU",
-  "name" : "China Eastern Airlines"
+  "name" : "China Eastern Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "CZ",
-  "name" : "China Southern Airlines"
+  "name" : "China Southern Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "XO",
-  "name" : "China Xinhua Airlines"
+  "name" : "China Xinhua Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "3Q",
-  "name" : "Yunnan Airlines"
+  "name" : "Yunnan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "A2",
-  "name" : "Cielos Airlines"
+  "name" : "Cielos Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "QI",
-  "name" : "Cimber Air"
+  "name" : "Cimber Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "C9",
-  "name" : "Cirrus Airlines"
+  "name" : "Cirrus Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "CF",
-  "name" : "City Airline"
+  "name" : "City Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "WX",
-  "name" : "CityJet"
+  "name" : "CityJet",
+  "alliance" : "N/A"
 },
 {
   "code" : "CJ",
-  "name" : "BA CityFlyer"
+  "name" : "BA CityFlyer",
+  "alliance" : "N/A"
 },
 {
   "code" : "6P",
-  "name" : "Club Air"
+  "name" : "Club Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "DQ",
-  "name" : "Coastal Air"
+  "name" : "Coastal Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "9L",
-  "name" : "Colgan Air"
+  "name" : "Colgan Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "OH",
-  "name" : "Comair"
+  "name" : "Comair",
+  "alliance" : "N/A"
 },
 {
   "code" : "MN",
-  "name" : "Comair"
+  "name" : "Comair",
+  "alliance" : "N/A"
 },
 {
   "code" : "C5",
-  "name" : "CommutAir"
+  "name" : "CommutAir",
+  "alliance" : "N/A"
 },
 {
   "code" : "KR",
-  "name" : "Comores Airlines"
+  "name" : "Comores Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "CP",
-  "name" : "Compass Airlines"
+  "name" : "Compass Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "DE",
-  "name" : "Condor Flugdienst"
+  "name" : "Condor Flugdienst",
+  "alliance" : "N/A"
 },
 {
   "code" : "6A",
-  "name" : "Consorcio Aviaxsa"
+  "name" : "Consorcio Aviaxsa",
+  "alliance" : "N/A"
 },
 {
   "code" : "CO",
-  "name" : "Continental Airlines"
+  "name" : "Continental Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "CS",
-  "name" : "Continental Micronesia"
+  "name" : "Continental Micronesia",
+  "alliance" : "N/A"
 },
 {
   "code" : "V0",
-  "name" : "Conviasa"
+  "name" : "Conviasa",
+  "alliance" : "N/A"
 },
 {
   "code" : "CM",
-  "name" : "Copa Airlines"
+  "name" : "Copa Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "SS",
-  "name" : "Corsairfly"
+  "name" : "Corsairfly",
+  "alliance" : "N/A"
 },
 {
   "code" : "XK",
-  "name" : "Corse-Mediterranee"
+  "name" : "Corse-Mediterranee",
+  "alliance" : "N/A"
 },
 {
   "code" : "F5",
-  "name" : "Cosmic Air"
+  "name" : "Cosmic Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "OU",
-  "name" : "Croatia Airlines"
+  "name" : "Croatia Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "QE",
-  "name" : "Crossair Europe"
+  "name" : "Crossair Europe",
+  "alliance" : "N/A"
 },
 {
   "code" : "CU",
-  "name" : "Cubana de Aviación"
+  "name" : "Cubana de Aviación",
+  "alliance" : "N/A"
 },
 {
   "code" : "CY",
-  "name" : "Cyprus Airways"
+  "name" : "Cyprus Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "OK",
-  "name" : "Czech Airlines"
+  "name" : "Czech Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "DX",
-  "name" : "DAT Danish Air Transport"
+  "name" : "DAT Danish Air Transport",
+  "alliance" : "N/A"
 },
 {
   "code" : "ES",
-  "name" : "DHL International"
+  "name" : "DHL International",
+  "alliance" : "N/A"
 },
 {
   "code" : "D3",
-  "name" : "Daallo Airlines"
+  "name" : "Daallo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "H8",
-  "name" : "Dalavia"
+  "name" : "Dalavia",
+  "alliance" : "N/A"
 },
 {
   "code" : "0D",
-  "name" : "Darwin Airline"
+  "name" : "Darwin Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "D5",
-  "name" : "Dauair"
+  "name" : "Dauair",
+  "alliance" : "N/A"
 },
 {
   "code" : "DL",
-  "name" : "Delta Air Lines"
+  "name" : "Delta Air Lines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "2A",
-  "name" : "Deutsche Bahn"
+  "name" : "Deutsche Bahn",
+  "alliance" : "N/A"
 },
 {
   "code" : "DH",
-  "name" : "Discovery Airways"
+  "name" : "Discovery Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "D8",
-  "name" : "Djibouti Airlines"
+  "name" : "Djibouti Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "DO",
-  "name" : "Dominicana de Aviaci"
+  "name" : "Dominicana de Aviaci",
+  "alliance" : "N/A"
 },
 {
   "code" : "E3",
-  "name" : "Domodedovo Airlines"
+  "name" : "Domodedovo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "KA",
-  "name" : "Dragonair"
+  "name" : "Dragonair",
+  "alliance" : "N/A"
 },
 {
   "code" : "KB",
-  "name" : "Druk Air"
+  "name" : "Druk Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "DI",
-  "name" : "dba"
+  "name" : "dba",
+  "alliance" : "N/A"
 },
 {
   "code" : "1C",
-  "name" : "Electronic Data Systems"
+  "name" : "Electronic Data Systems",
+  "alliance" : "N/A"
 },
 {
   "code" : "H7",
-  "name" : "Eagle Air"
+  "name" : "Eagle Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "QU",
-  "name" : "East African"
+  "name" : "East African",
+  "alliance" : "N/A"
 },
 {
   "code" : "S9",
-  "name" : "East African Safari Air"
+  "name" : "East African Safari Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "T3",
-  "name" : "Eastern Airways"
+  "name" : "Eastern Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "DK",
-  "name" : "Eastland Air"
+  "name" : "Eastland Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "WK",
-  "name" : "Edelweiss Air"
+  "name" : "Edelweiss Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "MS",
-  "name" : "Egyptair"
+  "name" : "Egyptair",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "LY",
-  "name" : "El Al Israel Airlines"
+  "name" : "El Al Israel Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UZ",
-  "name" : "El-Buraq Air Transport"
+  "name" : "El-Buraq Air Transport",
+  "alliance" : "N/A"
 },
 {
   "code" : "EK",
-  "name" : "Emirates"
+  "name" : "Emirates",
+  "alliance" : "N/A"
 },
 {
   "code" : "EM",
-  "name" : "Empire Airlines"
+  "name" : "Empire Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "EU",
-  "name" : "Empresa Ecuatoriana De Aviacion"
+  "name" : "Empresa Ecuatoriana De Aviacion",
+  "alliance" : "N/A"
 },
 {
   "code" : "E0",
-  "name" : "Eos Airlines"
+  "name" : "Eos Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "B8",
-  "name" : "Eritrean Airlines"
+  "name" : "Eritrean Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "E7",
-  "name" : "Estafeta Carga Aerea"
+  "name" : "Estafeta Carga Aerea",
+  "alliance" : "N/A"
 },
 {
   "code" : "OV",
-  "name" : "Estonian Air"
+  "name" : "Estonian Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "ET",
-  "name" : "Ethiopian Airlines"
+  "name" : "Ethiopian Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "EY",
-  "name" : "Etihad Airways"
+  "name" : "Etihad Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "RZ",
-  "name" : "Euro Exec Express"
+  "name" : "Euro Exec Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "MM",
-  "name" : "EuroAtlantic Airways"
+  "name" : "EuroAtlantic Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "UI",
-  "name" : "Eurocypria Airlines"
+  "name" : "Eurocypria Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "K2",
-  "name" : "Eurolot"
+  "name" : "Eurolot",
+  "alliance" : "N/A"
 },
 {
   "code" : "3W",
-  "name" : "Euromanx Airways"
+  "name" : "Euromanx Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "EA",
-  "name" : "European Air Express"
+  "name" : "European Air Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "QY",
-  "name" : "European Air Transport"
+  "name" : "European Air Transport",
+  "alliance" : "N/A"
 },
 {
   "code" : "EW",
-  "name" : "Eurowings"
+  "name" : "Eurowings",
+  "alliance" : "N/A"
 },
 {
   "code" : "JN",
-  "name" : "Excel Airways"
+  "name" : "Excel Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "OW",
-  "name" : "Executive Airlines"
+  "name" : "Executive Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "IH",
-  "name" : "Falcon Aviation"
+  "name" : "Falcon Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "EF",
-  "name" : "Far Eastern Air Transport"
+  "name" : "Far Eastern Air Transport",
+  "alliance" : "N/A"
 },
 {
   "code" : "F6",
-  "name" : "Faroejet"
+  "name" : "Faroejet",
+  "alliance" : "N/A"
 },
 {
   "code" : "F3",
-  "name" : "Faso Airways"
+  "name" : "Faso Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "FX",
-  "name" : "Federal Express"
+  "name" : "Federal Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "N8",
-  "name" : "Fika Salaama Airlines"
+  "name" : "Fika Salaama Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "4S",
-  "name" : "Finalair Congo"
+  "name" : "Finalair Congo",
+  "alliance" : "N/A"
 },
 {
   "code" : "AY",
-  "name" : "Finnair"
+  "name" : "Finnair",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "FC",
-  "name" : "Finncomm Airlines"
+  "name" : "Finncomm Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FY",
-  "name" : "Firefly"
+  "name" : "Firefly",
+  "alliance" : "N/A"
 },
 {
   "code" : "7F",
-  "name" : "First Air"
+  "name" : "First Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "DP",
-  "name" : "First Choice Airways"
+  "name" : "First Choice Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "8F",
-  "name" : "Fischer Air"
+  "name" : "Fischer Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "B5",
-  "name" : "Flightline"
+  "name" : "Flightline",
+  "alliance" : "N/A"
 },
 {
   "code" : "PA",
-  "name" : "Florida Coastal Airlines"
+  "name" : "Florida Coastal Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "RF",
-  "name" : "Florida West International Airways"
+  "name" : "Florida West International Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "F2",
-  "name" : "Fly Air"
+  "name" : "Fly Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "SH",
-  "name" : "Fly Me Sweden"
+  "name" : "Fly Me Sweden",
+  "alliance" : "N/A"
 },
 {
   "code" : "D7",
-  "name" : "AirAsia X"
+  "name" : "AirAsia X",
+  "alliance" : "N/A"
 },
 {
   "code" : "TE",
-  "name" : "FlyLal"
+  "name" : "FlyLal",
+  "alliance" : "N/A"
 },
 {
   "code" : "LF",
-  "name" : "FlyNordic"
+  "name" : "FlyNordic",
+  "alliance" : "N/A"
 },
 {
   "code" : "F7",
-  "name" : "Flybaboo"
+  "name" : "Flybaboo",
+  "alliance" : "N/A"
 },
 {
   "code" : "BE",
-  "name" : "Flybe"
+  "name" : "Flybe",
+  "alliance" : "N/A"
 },
 {
   "code" : "B4",
-  "name" : "Flyglobespan"
+  "name" : "Flyglobespan",
+  "alliance" : "N/A"
 },
 {
   "code" : "BN",
-  "name" : "Forward Air International Airlines"
+  "name" : "Forward Air International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "HK",
-  "name" : "Four Star Aviation / Four Star Cargo"
+  "name" : "Four Star Aviation / Four Star Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "FP",
-  "name" : "Freedom Air"
+  "name" : "Freedom Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "F9",
-  "name" : "Frontier Airlines"
+  "name" : "Frontier Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "2F",
-  "name" : "Frontier Flying Service"
+  "name" : "Frontier Flying Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "GT",
-  "name" : "GB Airways"
+  "name" : "GB Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "7O",
-  "name" : "Galaxy Air"
+  "name" : "Galaxy Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "1G",
-  "name" : "Galileo International"
+  "name" : "Galileo International",
+  "alliance" : "N/A"
 },
 {
   "code" : "GC",
-  "name" : "Gambia International Airlines"
+  "name" : "Gambia International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "GA",
-  "name" : "Garuda Indonesia"
+  "name" : "Garuda Indonesia",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "4G",
-  "name" : "Gazpromavia"
+  "name" : "Gazpromavia",
+  "alliance" : "N/A"
 },
 {
   "code" : "A9",
-  "name" : "Georgian Airways"
+  "name" : "Georgian Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "QB",
-  "name" : "Georgian National Airlines"
+  "name" : "Georgian National Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ST",
-  "name" : "Germania"
+  "name" : "Germania",
+  "alliance" : "N/A"
 },
 {
   "code" : "4U",
-  "name" : "Germanwings"
+  "name" : "Germanwings",
+  "alliance" : "N/A"
 },
 {
   "code" : "GP",
-  "name" : "Gestair"
+  "name" : "Gestair",
+  "alliance" : "N/A"
 },
 {
   "code" : "G0",
-  "name" : "Ghana International Airlines"
+  "name" : "Ghana International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "G8",
-  "name" : "Go Air"
+  "name" : "Go Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "G7",
-  "name" : "GoJet Airlines"
+  "name" : "GoJet Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "G3",
-  "name" : "Gol Transportes Aéreos"
+  "name" : "Gol Transportes Aéreos",
+  "alliance" : "N/A"
 },
 {
   "code" : "DC",
-  "name" : "Golden Air"
+  "name" : "Golden Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "G1",
-  "name" : "Gorkha Airlines"
+  "name" : "Gorkha Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "GS",
-  "name" : "Grant Aviation"
+  "name" : "Grant Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZK",
-  "name" : "Great Lakes Airlines"
+  "name" : "Great Lakes Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "G6",
-  "name" : "Guine Bissaur Airlines"
+  "name" : "Guine Bissaur Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "GF",
-  "name" : "Gulf Air Bahrain"
+  "name" : "Gulf Air Bahrain",
+  "alliance" : "N/A"
 },
 {
   "code" : "H6",
-  "name" : "Hageland Aviation Services"
+  "name" : "Hageland Aviation Services",
+  "alliance" : "N/A"
 },
 {
   "code" : "HR",
-  "name" : "Hahn Air"
+  "name" : "Hahn Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "HU",
-  "name" : "Hainan Airlines"
+  "name" : "Hainan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "1R",
-  "name" : "Hainan Phoenix Information Systems"
+  "name" : "Hainan Phoenix Information Systems",
+  "alliance" : "N/A"
 },
 {
   "code" : "2T",
-  "name" : "Haiti Ambassador Airlines"
+  "name" : "Haiti Ambassador Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "4R",
-  "name" : "Hamburg International"
+  "name" : "Hamburg International",
+  "alliance" : "N/A"
 },
 {
   "code" : "X3",
-  "name" : "TUIfly"
+  "name" : "TUIfly",
+  "alliance" : "N/A"
 },
 {
   "code" : "HF",
-  "name" : "Hapagfly"
+  "name" : "Hapagfly",
+  "alliance" : "N/A"
 },
 {
   "code" : "HB",
-  "name" : "Harbor Airlines"
+  "name" : "Harbor Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "HA",
-  "name" : "Hawaiian Airlines"
+  "name" : "Hawaiian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "BH",
-  "name" : "Hawkair"
+  "name" : "Hawkair",
+  "alliance" : "N/A"
 },
 {
   "code" : "HN",
-  "name" : "Heavylift Cargo Airlines"
+  "name" : "Heavylift Cargo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "8H",
-  "name" : "Heli France"
+  "name" : "Heli France",
+  "alliance" : "N/A"
 },
 {
   "code" : "JB",
-  "name" : "Helijet"
+  "name" : "Helijet",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZU",
-  "name" : "Helios Airways"
+  "name" : "Helios Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "T4",
-  "name" : "Hellas Jet"
+  "name" : "Hellas Jet",
+  "alliance" : "N/A"
 },
 {
   "code" : "2L",
-  "name" : "Helvetic Airways"
+  "name" : "Helvetic Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "DU",
-  "name" : "Hemus Air"
+  "name" : "Hemus Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "EO",
-  "name" : "Hewa Bora Airways"
+  "name" : "Hewa Bora Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "UD",
-  "name" : "Hex'Air"
+  "name" : "Hex'Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "5K",
-  "name" : "Hi Fly"
+  "name" : "Hi Fly",
+  "alliance" : "N/A"
 },
 {
   "code" : "HD",
-  "name" : "Hokkaido International Airlines"
+  "name" : "Hokkaido International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "HX",
-  "name" : "Hong Kong Airlines"
+  "name" : "Hong Kong Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UO",
-  "name" : "Hong Kong Express Airways"
+  "name" : "Hong Kong Express Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "HH",
-  "name" : "Hope Air"
+  "name" : "Hope Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "QX",
-  "name" : "Horizon Air"
+  "name" : "Horizon Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "II",
-  "name" : "IBC Airways"
+  "name" : "IBC Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "C3",
-  "name" : "ICAR Airlines"
+  "name" : "ICAR Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "1F",
-  "name" : "INFINI Travel Information"
+  "name" : "INFINI Travel Information",
+  "alliance" : "N/A"
 },
 {
   "code" : "IB",
-  "name" : "Iberia Airlines"
+  "name" : "Iberia Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "FW",
-  "name" : "Ibex Airlines"
+  "name" : "Ibex Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FI",
-  "name" : "Icelandair"
+  "name" : "Icelandair",
+  "alliance" : "N/A"
 },
 {
   "code" : "6E",
-  "name" : "IndiGo Airlines"
+  "name" : "IndiGo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "IC",
-  "name" : "Indian Airlines"
+  "name" : "Indian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "I9",
-  "name" : "Indigo"
+  "name" : "Indigo",
+  "alliance" : "N/A"
 },
 {
   "code" : "QZ",
-  "name" : "Indonesia AirAsia"
+  "name" : "Indonesia AirAsia",
+  "alliance" : "N/A"
 },
 {
   "code" : "IO",
-  "name" : "Indonesian Airlines"
+  "name" : "Indonesian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "H4",
-  "name" : "Inter Islands Airlines"
+  "name" : "Inter Islands Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "D6",
-  "name" : "Interair South Africa"
+  "name" : "Interair South Africa",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZA",
-  "name" : "Interavia Airlines"
+  "name" : "Interavia Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ID",
-  "name" : "Interlink Airlines"
+  "name" : "Interlink Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "6I",
-  "name" : "International Business Air"
+  "name" : "International Business Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "3L",
-  "name" : "Intersky"
+  "name" : "Intersky",
+  "alliance" : "N/A"
 },
 {
   "code" : "I4",
-  "name" : "Interstate Airline"
+  "name" : "Interstate Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "IR",
-  "name" : "Iran Air"
+  "name" : "Iran Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "EP",
-  "name" : "Iran Aseman Airlines"
+  "name" : "Iran Aseman Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "IA",
-  "name" : "Iraqi Airways"
+  "name" : "Iraqi Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "2S",
-  "name" : "Island Express"
+  "name" : "Island Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "CN",
-  "name" : "Islands Nationair"
+  "name" : "Islands Nationair",
+  "alliance" : "N/A"
 },
 {
   "code" : "IF",
-  "name" : "Islas Airways"
+  "name" : "Islas Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "WC",
-  "name" : "Islena De Inversiones"
+  "name" : "Islena De Inversiones",
+  "alliance" : "N/A"
 },
 {
   "code" : "6H",
-  "name" : "Israir"
+  "name" : "Israir",
+  "alliance" : "N/A"
 },
 {
   "code" : "GI",
-  "name" : "Itek Air"
+  "name" : "Itek Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "H9",
-  "name" : "Izair"
+  "name" : "Izair",
+  "alliance" : "N/A"
 },
 {
   "code" : "JC",
-  "name" : "JAL Express"
+  "name" : "JAL Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "JO",
-  "name" : "JALways"
+  "name" : "JALways",
+  "alliance" : "N/A"
 },
 {
   "code" : "1M",
-  "name" : "JSC Transport Automated Information Systems"
+  "name" : "JSC Transport Automated Information Systems",
+  "alliance" : "N/A"
 },
 {
   "code" : "JL",
-  "name" : "Japan Airlines"
+  "name" : "Japan Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "EG",
-  "name" : "Japan Asia Airways"
+  "name" : "Japan Asia Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "NU",
-  "name" : "Japan Transocean Air"
+  "name" : "Japan Transocean Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "JU",
-  "name" : "Jat Airways"
+  "name" : "Jat Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "VJ",
-  "name" : "Jatayu Airlines"
+  "name" : "Jatayu Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "J9",
-  "name" : "Jazeera Airways"
+  "name" : "Jazeera Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "7C",
-  "name" : "Jeju Air"
+  "name" : "Jeju Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "9W",
-  "name" : "Jet Airways"
+  "name" : "Jet Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "QJ",
-  "name" : "Jet Airways"
+  "name" : "Jet Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "0J",
-  "name" : "Jetclub"
+  "name" : "Jetclub",
+  "alliance" : "N/A"
 },
 {
   "code" : "3K",
-  "name" : "Jetstar Asia Airways"
+  "name" : "Jetstar Asia Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "LS",
-  "name" : "Jet2.com"
+  "name" : "Jet2.com",
+  "alliance" : "N/A"
 },
 {
   "code" : "B6",
-  "name" : "JetBlue Airways"
+  "name" : "JetBlue Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "JQ",
-  "name" : "Jetstar Airways"
+  "name" : "Jetstar Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "JX",
-  "name" : "Jett8 Airlines Cargo"
+  "name" : "Jett8 Airlines Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "GX",
-  "name" : "Jetx Airlines"
+  "name" : "Jetx Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "R5",
-  "name" : "Jordan Aviation"
+  "name" : "Jordan Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "HO",
-  "name" : "Juneyao Airlines"
+  "name" : "Juneyao Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "KD",
-  "name" : "KD Avia"
+  "name" : "KD Avia",
+  "alliance" : "N/A"
 },
 {
   "code" : "WA",
-  "name" : "KLM Cityhopper"
+  "name" : "KLM Cityhopper",
+  "alliance" : "N/A"
 },
 {
   "code" : "KL",
-  "name" : "KLM Royal Dutch Airlines"
+  "name" : "KLM Royal Dutch Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "N2",
-  "name" : "Kabo Air"
+  "name" : "Kabo Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "K4",
-  "name" : "Kalitta Air"
+  "name" : "Kalitta Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "RQ",
-  "name" : "Kam Air"
+  "name" : "Kam Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "E2",
-  "name" : "Kampuchea Airlines"
+  "name" : "Kampuchea Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "KV",
-  "name" : "Kavminvodyavia"
+  "name" : "Kavminvodyavia",
+  "alliance" : "N/A"
 },
 {
   "code" : "M5",
-  "name" : "Kenmore Air"
+  "name" : "Kenmore Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "KQ",
-  "name" : "Kenya Airways"
+  "name" : "Kenya Airways",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "IT",
-  "name" : "Kingfisher Airlines"
+  "name" : "Kingfisher Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "Y9",
-  "name" : "Kish Air"
+  "name" : "Kish Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "KP",
-  "name" : "Kiwi International Air Lines"
+  "name" : "Kiwi International Air Lines",
+  "alliance" : "N/A"
 },
 {
   "code" : "7K",
-  "name" : "Kogalymavia Air Company"
+  "name" : "Kogalymavia Air Company",
+  "alliance" : "N/A"
 },
 {
   "code" : "8J",
-  "name" : "Komiinteravia"
+  "name" : "Komiinteravia",
+  "alliance" : "N/A"
 },
 {
   "code" : "KE",
-  "name" : "Korean Air"
+  "name" : "Korean Air",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "7B",
-  "name" : "Krasnojarsky Airlines"
+  "name" : "Krasnojarsky Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "K9",
-  "name" : "Krylo Airlines"
+  "name" : "Krylo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "GW",
-  "name" : "Kuban Airlines"
+  "name" : "Kuban Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "VD",
-  "name" : "Kunpeng Airlines"
+  "name" : "Kunpeng Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "KU",
-  "name" : "Kuwait Airways"
+  "name" : "Kuwait Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "GO",
-  "name" : "Kuzu Airlines Cargo"
+  "name" : "Kuzu Airlines Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "QH",
-  "name" : "Kyrgyzstan"
+  "name" : "Kyrgyzstan",
+  "alliance" : "N/A"
 },
 {
   "code" : "R8",
-  "name" : "Kyrgyzstan Airlines"
+  "name" : "Kyrgyzstan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "JF",
-  "name" : "L.A.B. Flying Service"
+  "name" : "L.A.B. Flying Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "LR",
-  "name" : "LACSA"
+  "name" : "LACSA",
+  "alliance" : "N/A"
 },
 {
   "code" : "KG",
-  "name" : "LAI - Linea Aerea IAACA"
+  "name" : "LAI - Linea Aerea IAACA",
+  "alliance" : "N/A"
 },
 {
   "code" : "LA",
-  "name" : "LAN Airlines"
+  "name" : "LATAM Chile",
+  "alliance" : "N/A"
 },
 {
   "code" : "4M",
-  "name" : "LAN Argentina"
+  "name" : "LAN Argentina",
+  "alliance" : "N/A"
 },
 {
   "code" : "LU",
-  "name" : "LAN Express"
+  "name" : "LAN Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "LP",
-  "name" : "LAN Peru"
+  "name" : "LAN Peru",
+  "alliance" : "N/A"
 },
 {
   "code" : "LO",
-  "name" : "LOT Polish Airlines"
+  "name" : "LOT Polish Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "L3",
-  "name" : "LTU Austria"
+  "name" : "LTU Austria",
+  "alliance" : "N/A"
 },
 {
   "code" : "LT",
-  "name" : "LTU International"
+  "name" : "LTU International",
+  "alliance" : "N/A"
 },
 {
   "code" : "N6",
-  "name" : "Lagun Air"
+  "name" : "Lagun Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "IK",
-  "name" : "Lankair"
+  "name" : "Lankair",
+  "alliance" : "N/A"
 },
 {
   "code" : "QV",
-  "name" : "Lao Airlines"
+  "name" : "Lao Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "L7",
-  "name" : "Laoag International Airlines"
+  "name" : "Laoag International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "NG",
-  "name" : "Lauda Air"
+  "name" : "Lauda Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "LQ",
-  "name" : "Lebanese Air Transport"
+  "name" : "Lebanese Air Transport",
+  "alliance" : "N/A"
 },
 {
   "code" : "LI",
-  "name" : "Leeward Islands Air Transport"
+  "name" : "Leeward Islands Air Transport",
+  "alliance" : "N/A"
 },
 {
   "code" : "LN",
-  "name" : "Libyan Arab Airlines"
+  "name" : "Libyan Arab Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "JT",
-  "name" : "Lion Mentari Airlines"
+  "name" : "Lion Mentari Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "LM",
-  "name" : "Livingston"
+  "name" : "Livingston",
+  "alliance" : "N/A"
 },
 {
   "code" : "LB",
-  "name" : "Lloyd Aereo Boliviano"
+  "name" : "Lloyd Aereo Boliviano",
+  "alliance" : "N/A"
 },
 {
   "code" : "HE",
-  "name" : "Luftfahrtgesellschaft Walter"
+  "name" : "Luftfahrtgesellschaft Walter",
+  "alliance" : "N/A"
 },
 {
   "code" : "LH",
-  "name" : "Lufthansa"
+  "name" : "Lufthansa",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "CL",
-  "name" : "Lufthansa CityLine"
+  "name" : "Lufthansa CityLine",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "L1",
-  "name" : "Lufthansa Systems"
+  "name" : "Lufthansa Systems",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "L5",
-  "name" : "Lufttransport"
+  "name" : "Lufttransport",
+  "alliance" : "N/A"
 },
 {
   "code" : "LG",
-  "name" : "Luxair"
+  "name" : "Luxair",
+  "alliance" : "N/A"
 },
 {
   "code" : "5V",
-  "name" : "Lviv Airlines"
+  "name" : "Lviv Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "L2",
-  "name" : "Lynden Air Cargo"
+  "name" : "Lynden Air Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "MJ",
-  "name" : "L"
+  "name" : "L",
+  "alliance" : "N/A"
 },
 {
   "code" : "M7",
-  "name" : "MasAir"
+  "name" : "MasAir",
+  "alliance" : "N/A"
 },
 {
   "code" : "IN",
-  "name" : "MAT Macedonian Airlines"
+  "name" : "MAT Macedonian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "OM",
-  "name" : "MIAT Mongolian Airlines"
+  "name" : "MIAT Mongolian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MB",
-  "name" : "MNG Airlines"
+  "name" : "MNG Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "DM",
-  "name" : "Maersk"
+  "name" : "Maersk",
+  "alliance" : "N/A"
 },
 {
   "code" : "W5",
-  "name" : "Mahan Air"
+  "name" : "Mahan Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "M2",
-  "name" : "Mahfooz Aviation"
+  "name" : "Mahfooz Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "MH",
-  "name" : "Malaysia Airlines"
+  "name" : "Malaysia Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "TF",
-  "name" : "Malmö Aviation"
+  "name" : "Malmö Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "MA",
-  "name" : "Malév"
+  "name" : "Malév",
+  "alliance" : "N/A"
 },
 {
   "code" : "RI",
-  "name" : "Mandala Airlines"
+  "name" : "Mandala Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "AE",
-  "name" : "Mandarin Airlines"
+  "name" : "Mandarin Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "JE",
-  "name" : "Mango"
+  "name" : "Mango",
+  "alliance" : "N/A"
 },
 {
   "code" : "6V",
-  "name" : "Mars RK"
+  "name" : "Mars RK",
+  "alliance" : "N/A"
 },
 {
   "code" : "MP",
-  "name" : "Martinair"
+  "name" : "Martinair",
+  "alliance" : "N/A"
 },
 {
   "code" : "Q4",
-  "name" : "Mastertop Linhas Aereas"
+  "name" : "Mastertop Linhas Aereas",
+  "alliance" : "N/A"
 },
 {
   "code" : "H5",
-  "name" : "Mavial Magadan Airlines"
+  "name" : "Mavial Magadan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MW",
-  "name" : "Maya Island Air"
+  "name" : "Maya Island Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "IM",
-  "name" : "Menajet"
+  "name" : "Menajet",
+  "alliance" : "N/A"
 },
 {
   "code" : "IG",
-  "name" : "Meridiana"
+  "name" : "Meridiana",
+  "alliance" : "N/A"
 },
 {
   "code" : "MZ",
-  "name" : "Merpati Nusantara Airlines"
+  "name" : "Merpati Nusantara Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "YV",
-  "name" : "Mesa Airlines"
+  "name" : "Mesa Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MX",
-  "name" : "Mexicana de Aviaci"
+  "name" : "Mexicana de Aviaci",
+  "alliance" : "N/A"
 },
 {
   "code" : "ME",
-  "name" : "Middle East Airlines"
+  "name" : "Middle East Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "JI",
-  "name" : "Midway Airlines"
+  "name" : "Midway Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "YX",
-  "name" : "Midwest Airlines"
+  "name" : "Midwest Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MY",
-  "name" : "Midwest Airlines (Egypt)"
+  "name" : "Midwest Airlines (Egypt)",
+  "alliance" : "N/A"
 },
 {
   "code" : "2M",
-  "name" : "Moldavian Airlines"
+  "name" : "Moldavian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZB",
-  "name" : "Monarch Airlines"
+  "name" : "Monarch Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "8I",
-  "name" : "Myway Airlines"
+  "name" : "Myway Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "YM",
-  "name" : "Montenegro Airlines"
+  "name" : "Montenegro Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "3R",
-  "name" : "Moskovia Airlines"
+  "name" : "Moskovia Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "M9",
-  "name" : "Motor Sich"
+  "name" : "Motor Sich",
+  "alliance" : "N/A"
 },
 {
   "code" : "NM",
-  "name" : "Mount Cook Airlines"
+  "name" : "Mount Cook Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "VZ",
-  "name" : "MyTravel Airways"
+  "name" : "MyTravel Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "UB",
-  "name" : "Myanma Airways"
+  "name" : "Myanma Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "8M",
-  "name" : "Myanmar Airways International"
+  "name" : "Myanmar Airways International",
+  "alliance" : "N/A"
 },
 {
   "code" : "DV",
-  "name" : "Nantucket Airlines"
+  "name" : "Nantucket Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UE",
-  "name" : "Nasair"
+  "name" : "Nasair",
+  "alliance" : "N/A"
 },
 {
   "code" : "N7",
-  "name" : "National Airlines"
+  "name" : "National Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "NA",
-  "name" : "National Airlines"
+  "name" : "National Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "9O",
-  "name" : "National Airways Cameroon"
+  "name" : "National Airways Cameroon",
+  "alliance" : "N/A"
 },
 {
   "code" : "NC",
-  "name" : "National Jet Systems"
+  "name" : "National Jet Systems",
+  "alliance" : "N/A"
 },
 {
   "code" : "CE",
-  "name" : "Nationwide Airlines"
+  "name" : "Nationwide Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "1N",
-  "name" : "Navitaire"
+  "name" : "Navitaire",
+  "alliance" : "N/A"
 },
 {
   "code" : "RA",
-  "name" : "Nepal Airlines"
+  "name" : "Nepal Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "NO",
-  "name" : "Neos"
+  "name" : "Neos",
+  "alliance" : "N/A"
 },
 {
   "code" : "EJ",
-  "name" : "New England Airlines"
+  "name" : "New England Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "2N",
-  "name" : "NextJet"
+  "name" : "NextJet",
+  "alliance" : "N/A"
 },
 {
   "code" : "HG",
-  "name" : "Niki"
+  "name" : "Niki",
+  "alliance" : "N/A"
 },
 {
   "code" : "KZ",
-  "name" : "Nippon Cargo Airlines"
+  "name" : "Nippon Cargo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "DD",
-  "name" : "Nok Air"
+  "name" : "Nok Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "JH",
-  "name" : "Nordeste Linhas Aereas Regionais"
+  "name" : "Nordeste Linhas Aereas Regionais",
+  "alliance" : "N/A"
 },
 {
   "code" : "6N",
-  "name" : "Nordic Regional"
+  "name" : "Nordic Regional",
+  "alliance" : "N/A"
 },
 {
   "code" : "N9",
-  "name" : "North Coast Aviation"
+  "name" : "North Coast Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "M3",
-  "name" : "North Flying"
+  "name" : "North Flying",
+  "alliance" : "N/A"
 },
 {
   "code" : "HW",
-  "name" : "North-Wright Airways"
+  "name" : "North-Wright Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "NW",
-  "name" : "Northwest Airlines"
+  "name" : "Northwest Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "J3",
-  "name" : "Northwestern Air"
+  "name" : "Northwestern Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "DY",
-  "name" : "Norwegian Air Shuttle"
+  "name" : "Norwegian Air Shuttle",
+  "alliance" : "N/A"
 },
 {
   "code" : "BJ",
-  "name" : "Nouvel Air Tunisie"
+  "name" : "Nouvel Air Tunisie",
+  "alliance" : "N/A"
 },
 {
   "code" : "1I",
-  "name" : "Novair"
+  "name" : "Novair",
+  "alliance" : "N/A"
 },
 {
   "code" : "CR",
-  "name" : "OAG"
+  "name" : "OAG",
+  "alliance" : "N/A"
 },
 {
   "code" : "O8",
-  "name" : "Oasis Hong Kong Airlines"
+  "name" : "Oasis Hong Kong Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "O6",
-  "name" : "Oceanair"
+  "name" : "Oceanair",
+  "alliance" : "N/A"
 },
 {
   "code" : "O2",
-  "name" : "Oceanic Airlines"
+  "name" : "Oceanic Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "OA",
-  "name" : "Olympic Airlines"
+  "name" : "Olympic Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "WY",
-  "name" : "Oman Air"
+  "name" : "Oman Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "OY",
-  "name" : "Omni Air International"
+  "name" : "Omni Air International",
+  "alliance" : "N/A"
 },
 {
   "code" : "N3",
-  "name" : "Omskavia Airline"
+  "name" : "Omskavia Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "8Q",
-  "name" : "Onur Air"
+  "name" : "Onur Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "R2",
-  "name" : "Orenburg Airlines"
+  "name" : "Orenburg Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "OX",
-  "name" : "Orient Thai Airlines"
+  "name" : "Orient Thai Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "QO",
-  "name" : "Origin Pacific Airways"
+  "name" : "Origin Pacific Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "OL",
-  "name" : "Ostfriesische Lufttransport"
+  "name" : "Ostfriesische Lufttransport",
+  "alliance" : "N/A"
 },
 {
   "code" : "ON",
-  "name" : "Our Airline"
+  "name" : "Our Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "OJ",
-  "name" : "Overland Airways"
+  "name" : "Overland Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "O7",
-  "name" : "Ozjet Airlines"
+  "name" : "Ozjet Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "PV",
-  "name" : "PAN Air"
+  "name" : "PAN Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "9Q",
-  "name" : "PB Air"
+  "name" : "PB Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "U4",
-  "name" : "PMTair"
+  "name" : "PMTair",
+  "alliance" : "N/A"
 },
 {
   "code" : "BL",
-  "name" : "Jetstar Pacific"
+  "name" : "Jetstar Pacific",
+  "alliance" : "N/A"
 },
 {
   "code" : "8P",
-  "name" : "Pacific Coastal Airline"
+  "name" : "Pacific Coastal Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "Q8",
-  "name" : "Pacific East Asia Cargo Airlines"
+  "name" : "Pacific East Asia Cargo Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "LW",
-  "name" : "Pacific Wings"
+  "name" : "Pacific Wings",
+  "alliance" : "N/A"
 },
 {
   "code" : "PK",
-  "name" : "Pakistan International Airlines"
+  "name" : "Pakistan International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "PF",
-  "name" : "Palestinian Airlines"
+  "name" : "Palestinian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "NR",
-  "name" : "Pamir Airways"
+  "name" : "Pamir Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "P8",
-  "name" : "Pantanal Linhas Aéreas"
+  "name" : "Pantanal Linhas Aéreas",
+  "alliance" : "N/A"
 },
 {
   "code" : "I7",
-  "name" : "Paramount Airways"
+  "name" : "Paramount Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "PC",
-  "name" : "Pegasus Airlines"
+  "name" : "Pegasus Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "KS",
-  "name" : "Peninsula Airways"
+  "name" : "Peninsula Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "PR",
-  "name" : "Philippine Airlines"
+  "name" : "Philippine Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "HP",
-  "name" : "Phoenix Airways"
+  "name" : "Phoenix Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "9R",
-  "name" : "Phuket Air"
+  "name" : "Phuket Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "9E",
-  "name" : "Pinnacle Airlines"
+  "name" : "Pinnacle Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "PO",
-  "name" : "Polar Air Cargo"
+  "name" : "Polar Air Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "PH",
-  "name" : "Polynesian Airlines"
+  "name" : "Polynesian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "PD",
-  "name" : "Porter Airlines"
+  "name" : "Porter Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "NI",
-  "name" : "Portugalia"
+  "name" : "Portugalia",
+  "alliance" : "N/A"
 },
 {
   "code" : "BK",
-  "name" : "Potomac Air"
+  "name" : "Potomac Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "PW",
-  "name" : "Precision Air"
+  "name" : "Precision Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "FE",
-  "name" : "Primaris Airlines"
+  "name" : "Primaris Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "8W",
-  "name" : "Private Wings Flugcharter"
+  "name" : "Private Wings Flugcharter",
+  "alliance" : "N/A"
 },
 {
   "code" : "P0",
-  "name" : "Proflight Commuter Services"
+  "name" : "Proflight Commuter Services",
+  "alliance" : "N/A"
 },
 {
   "code" : "QF",
-  "name" : "Qantas"
+  "name" : "Qantas",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "QR",
-  "name" : "Qatar Airways"
+  "name" : "Qatar Airways",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "R6",
-  "name" : "RACSA"
+  "name" : "RACSA",
+  "alliance" : "N/A"
 },
 {
   "code" : "1D",
-  "name" : "Radixx Solutions International"
+  "name" : "Radixx Solutions International",
+  "alliance" : "N/A"
 },
 {
   "code" : "8L",
-  "name" : "Redhill Aviation"
+  "name" : "Redhill Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "V4",
-  "name" : "Reem Air"
+  "name" : "Reem Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "FN",
-  "name" : "Regional Airlines"
+  "name" : "Regional Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZL",
-  "name" : "Regional Express"
+  "name" : "Regional Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "3C",
-  "name" : "RegionsAir"
+  "name" : "RegionsAir",
+  "alliance" : "N/A"
 },
 {
   "code" : "RW",
-  "name" : "Republic Airlines"
+  "name" : "Republic Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "RH",
-  "name" : "Republic Express Airlines"
+  "name" : "Republic Express Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "C7",
-  "name" : "Rico Linhas A"
+  "name" : "Rico Linhas A",
+  "alliance" : "N/A"
 },
 {
   "code" : "GZ",
-  "name" : "Air Rarotonga"
+  "name" : "Air Rarotonga",
+  "alliance" : "N/A"
 },
 {
   "code" : "RR",
-  "name" : "Royal Air Force"
+  "name" : "Royal Air Force",
+  "alliance" : "N/A"
 },
 {
   "code" : "AT",
-  "name" : "Royal Air Maroc"
+  "name" : "Royal Air Maroc",
+  "alliance" : "N/A"
 },
 {
   "code" : "R0",
-  "name" : "Royal Airlines"
+  "name" : "Royal Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "V5",
-  "name" : "Royal Aruban Airline"
+  "name" : "Royal Aruban Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "BI",
-  "name" : "Royal Brunei Airlines"
+  "name" : "Royal Brunei Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "RJ",
-  "name" : "Royal Jordanian"
+  "name" : "Royal Jordanian",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "WR",
-  "name" : "Royal Tongan Airlines"
+  "name" : "Royal Tongan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "P7",
-  "name" : "Russian Sky Airlines"
+  "name" : "Russian Sky Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "WB",
-  "name" : "Rwandair Express"
+  "name" : "Rwandair Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "RD",
-  "name" : "Ryan International Airlines"
+  "name" : "Ryan International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FR",
-  "name" : "Ryanair"
+  "name" : "Ryanair",
+  "alliance" : "N/A"
 },
 {
   "code" : "YS",
-  "name" : "Régional"
+  "name" : "Régional",
+  "alliance" : "N/A"
 },
 {
   "code" : "S4",
-  "name" : "SATA International"
+  "name" : "SATA International",
+  "alliance" : "N/A"
 },
 {
   "code" : "SA",
-  "name" : "South African Airways"
+  "name" : "South African Airways",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "NL",
-  "name" : "Shaheen Air International"
+  "name" : "Shaheen Air International",
+  "alliance" : "N/A"
 },
 {
   "code" : "SK",
-  "name" : "Scandinavian Airlines System"
+  "name" : "Scandinavian Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "S7",
-  "name" : "S7 Airlines"
+  "name" : "S7 Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "BB",
-  "name" : "Seaborne Airlines"
+  "name" : "Seaborne Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UL",
-  "name" : "SriLankan Airlines"
+  "name" : "SriLankan Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "SY",
-  "name" : "Sun Country Airlines"
+  "name" : "Sun Country Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "SG",
-  "name" : "Spicejet"
+  "name" : "Spicejet",
+  "alliance" : "N/A"
 },
 {
   "code" : "I6",
-  "name" : "Sky Eyes"
+  "name" : "Sky Eyes",
+  "alliance" : "N/A"
 },
 {
   "code" : "7G",
-  "name" : "Star Flyer"
+  "name" : "Star Flyer",
+  "alliance" : "N/A"
 },
 {
   "code" : "FA",
-  "name" : "Safair"
+  "name" : "Safair",
+  "alliance" : "N/A"
 },
 {
   "code" : "8S",
-  "name" : "Scorpio Aviation"
+  "name" : "Scorpio Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "SQ",
-  "name" : "Singapore Airlines"
+  "name" : "Singapore Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "5M",
-  "name" : "Sibaviatrans"
+  "name" : "Sibaviatrans",
+  "alliance" : "N/A"
 },
 {
   "code" : "XS",
-  "name" : "SITA"
+  "name" : "SITA",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZS",
-  "name" : "Sama Airlines"
+  "name" : "Sama Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FT",
-  "name" : "Siem Reap Airways"
+  "name" : "Siem Reap Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "SX",
-  "name" : "Sky Work Airlines"
+  "name" : "Sky Work Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "SM",
-  "name" : "Swedline Express"
+  "name" : "Swedline Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "DG",
-  "name" : "South East Asian Airlines"
+  "name" : "South East Asian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "5G",
-  "name" : "Skyservice Airlines"
+  "name" : "Skyservice Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FS",
-  "name" : "Servicios de Transportes A"
+  "name" : "Servicios de Transportes A",
+  "alliance" : "N/A"
 },
 {
   "code" : "SD",
-  "name" : "Sudan Airways"
+  "name" : "Sudan Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "PI",
-  "name" : "Sun Air (Fiji)"
+  "name" : "Sun Air (Fiji)",
+  "alliance" : "N/A"
 },
 {
   "code" : "EZ",
-  "name" : "Sun Air of Scandinavia"
+  "name" : "Sun Air of Scandinavia",
+  "alliance" : "N/A"
 },
 {
   "code" : "SV",
-  "name" : "Saudi Arabian Airlines"
+  "name" : "Saudi Arabian Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "WN",
-  "name" : "Southwest Airlines"
+  "name" : "Southwest Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "A4",
-  "name" : "Southern Winds Airlines"
+  "name" : "Southern Winds Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "WG",
-  "name" : "Sunwing Airlines"
+  "name" : "Sunwing Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "LX",
-  "name" : "Swiss International Air Lines"
+  "name" : "Swiss International Air Lines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "SR",
-  "name" : "Swissair"
+  "name" : "Swissair",
+  "alliance" : "N/A"
 },
 {
   "code" : "S8",
-  "name" : "Shovkoviy Shlyah"
+  "name" : "Shovkoviy Shlyah",
+  "alliance" : "N/A"
 },
 {
   "code" : "XQ",
-  "name" : "SunExpress"
+  "name" : "SunExpress",
+  "alliance" : "N/A"
 },
 {
   "code" : "RB",
-  "name" : "Syrian Arab Airlines"
+  "name" : "Syrian Arab Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZP",
-  "name" : "Silk Way Airlines"
+  "name" : "Silk Way Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "SC",
-  "name" : "Shandong Airlines"
+  "name" : "Shandong Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "3U",
-  "name" : "Sichuan Airlines"
+  "name" : "Sichuan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "FM",
-  "name" : "Shanghai Airlines"
+  "name" : "Shanghai Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZH",
-  "name" : "Shenzhen Airlines"
+  "name" : "Shenzhen Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "7L",
-  "name" : "Sun D'Or"
+  "name" : "Sun D'Or",
+  "alliance" : "N/A"
 },
 {
   "code" : "NE",
-  "name" : "SkyEurope"
+  "name" : "SkyEurope",
+  "alliance" : "N/A"
 },
 {
   "code" : "CQ",
-  "name" : "Sunshine Express Airlines"
+  "name" : "Sunshine Express Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "JK",
-  "name" : "Spanair"
+  "name" : "Spanair",
+  "alliance" : "N/A"
 },
 {
   "code" : "2G",
-  "name" : "San Juan Airlines"
+  "name" : "San Juan Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "1Z",
-  "name" : "Sabre Pacific"
+  "name" : "Sabre Pacific",
+  "alliance" : "N/A"
 },
 {
   "code" : "1S",
-  "name" : "Sabre"
+  "name" : "Sabre",
+  "alliance" : "N/A"
 },
 {
   "code" : "1H",
-  "name" : "Siren-Travel"
+  "name" : "Siren-Travel",
+  "alliance" : "N/A"
 },
 {
   "code" : "1Q",
-  "name" : "Sirena"
+  "name" : "Sirena",
+  "alliance" : "N/A"
 },
 {
   "code" : "1K",
-  "name" : "Sutra"
+  "name" : "Sutra",
+  "alliance" : "N/A"
 },
 {
   "code" : "2C",
-  "name" : "SNCF"
+  "name" : "SNCF",
+  "alliance" : "N/A"
 },
 {
   "code" : "NK",
-  "name" : "Spirit Airlines"
+  "name" : "Spirit Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "S0",
-  "name" : "Slok Air Gambia"
+  "name" : "Slok Air Gambia",
+  "alliance" : "N/A"
 },
 {
   "code" : "S3",
-  "name" : "Santa Barbara Airlines"
+  "name" : "Santa Barbara Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "H2",
-  "name" : "Sky Airline"
+  "name" : "Sky Airline",
+  "alliance" : "N/A"
 },
 {
   "code" : "OO",
-  "name" : "SkyWest"
+  "name" : "SkyWest",
+  "alliance" : "N/A"
 },
 {
   "code" : "JZ",
-  "name" : "Skyways Express"
+  "name" : "Skyways Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "BC",
-  "name" : "Skymark Airlines"
+  "name" : "Skymark Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "LJ",
-  "name" : "Sierra National Airlines"
+  "name" : "Sierra National Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "MI",
-  "name" : "SilkAir"
+  "name" : "SilkAir",
+  "alliance" : "N/A"
 },
 {
   "code" : "6Q",
-  "name" : "Slovak Airlines"
+  "name" : "Slovak Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "PY",
-  "name" : "Surinam Airways"
+  "name" : "Surinam Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "8D",
-  "name" : "Servant Air"
+  "name" : "Servant Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "NB",
-  "name" : "Sterling Airlines"
+  "name" : "Sterling Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "6J",
-  "name" : "Skynet Asia Airways"
+  "name" : "Skynet Asia Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "IE",
-  "name" : "Solomon Airlines"
+  "name" : "Solomon Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "6W",
-  "name" : "Saratov Aviation Division"
+  "name" : "Saratov Aviation Division",
+  "alliance" : "N/A"
 },
 {
   "code" : "HZ",
-  "name" : "Sat Airlines"
+  "name" : "Sat Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "S5",
-  "name" : "Shuttle America"
+  "name" : "Shuttle America",
+  "alliance" : "N/A"
 },
 {
   "code" : "R1",
-  "name" : "Sirin"
+  "name" : "Sirin",
+  "alliance" : "N/A"
 },
 {
   "code" : "S6",
-  "name" : "Star Air"
+  "name" : "Star Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "EQ",
-  "name" : "TAME"
+  "name" : "TAME",
+  "alliance" : "N/A"
 },
 {
   "code" : "JJ",
-  "name" : "TAM Brazilian Airlines"
+  "name" : "TAM Brazilian Airlines",
+  "alliance" : "OneWorld"
 },
 {
   "code" : "TP",
-  "name" : "TAP Portugal"
+  "name" : "TAP Portugal",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "3V",
-  "name" : "TNT Airways"
+  "name" : "TNT Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "T2",
-  "name" : "Thai Air Cargo"
+  "name" : "Thai Air Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "MT",
-  "name" : "Thomas Cook Airlines"
+  "name" : "Thomas Cook Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "TQ",
-  "name" : "Tandem Aero"
+  "name" : "Tandem Aero",
+  "alliance" : "N/A"
 },
 {
   "code" : "L9",
-  "name" : "Teamline Air"
+  "name" : "Teamline Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZT",
-  "name" : "Titan Airways"
+  "name" : "Titan Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "TR",
-  "name" : "Tiger Airways"
+  "name" : "Tiger Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "TG",
-  "name" : "Thai Airways International"
+  "name" : "Thai Airways International",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "FD",
-  "name" : "Thai AirAsia"
+  "name" : "Thai AirAsia",
+  "alliance" : "N/A"
 },
 {
   "code" : "TK",
-  "name" : "Turkish Airlines"
+  "name" : "Turkish Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "T7",
-  "name" : "Twin Jet"
+  "name" : "Twin Jet",
+  "alliance" : "N/A"
 },
 {
   "code" : "9I",
-  "name" : "Thai Sky Airlines"
+  "name" : "Thai Sky Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "GY",
-  "name" : "Tri-MG Intra Asia Airlines"
+  "name" : "Tri-MG Intra Asia Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "3P",
-  "name" : "Tiara Air"
+  "name" : "Tiara Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "TI",
-  "name" : "Tol-Air Services"
+  "name" : "Tol-Air Services",
+  "alliance" : "N/A"
 },
 {
   "code" : "BY",
-  "name" : "Thomsonfly"
+  "name" : "Thomsonfly",
+  "alliance" : "N/A"
 },
 {
   "code" : "PM",
-  "name" : "Tropic Air"
+  "name" : "Tropic Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "QT",
-  "name" : "TAMPA"
+  "name" : "TAMPA",
+  "alliance" : "N/A"
 },
 {
   "code" : "GE",
-  "name" : "TransAsia Airways"
+  "name" : "TransAsia Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "HV",
-  "name" : "Transavia Holland"
+  "name" : "Transavia Holland",
+  "alliance" : "N/A"
 },
 {
   "code" : "VR",
-  "name" : "TACV"
+  "name" : "TACV",
+  "alliance" : "N/A"
 },
 {
   "code" : "TH",
-  "name" : "Transmile Air Services"
+  "name" : "Transmile Air Services",
+  "alliance" : "N/A"
 },
 {
   "code" : "9T",
-  "name" : "Transwest Air"
+  "name" : "Transwest Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "UN",
-  "name" : "Transaero Airlines"
+  "name" : "Transaero Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "T9",
-  "name" : "Thai Star Airlines"
+  "name" : "Thai Star Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UG",
-  "name" : "Tuninter"
+  "name" : "Tuninter",
+  "alliance" : "N/A"
 },
 {
   "code" : "T6",
-  "name" : "Tavrey Airlines"
+  "name" : "Tavrey Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "QS",
-  "name" : "Travel Service"
+  "name" : "Travel Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "AL",
-  "name" : "Transaviaexport"
+  "name" : "Transaviaexport",
+  "alliance" : "N/A"
 },
 {
   "code" : "6B",
-  "name" : "TUIfly Nordic"
+  "name" : "TUIfly Nordic",
+  "alliance" : "N/A"
 },
 {
   "code" : "DT",
-  "name" : "TAAG Angola Airlines"
+  "name" : "TAAG Angola Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "SF",
-  "name" : "Tassili Airlines"
+  "name" : "Tassili Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "PZ",
-  "name" : "TAM Mercosur"
+  "name" : "TAM Mercosur",
+  "alliance" : "N/A"
 },
 {
   "code" : "AX",
-  "name" : "Trans States Airlines"
+  "name" : "Trans States Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "1E",
-  "name" : "Travelsky Technology"
+  "name" : "Travelsky Technology",
+  "alliance" : "N/A"
 },
 {
   "code" : "1L",
-  "name" : "Open Skies Consultative Commission"
+  "name" : "Open Skies Consultative Commission",
+  "alliance" : "N/A"
 },
 {
   "code" : "RO",
-  "name" : "Tarom"
+  "name" : "Tarom",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "3T",
-  "name" : "Turan Air"
+  "name" : "Turan Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "U5",
-  "name" : "USA3000 Airlines"
+  "name" : "USA3000 Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UA",
-  "name" : "United Airlines"
+  "name" : "United Airlines",
+  "alliance" : "Star Alliance"
 },
 {
   "code" : "U6",
-  "name" : "Ural Airlines"
+  "name" : "Ural Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UF",
-  "name" : "UM Airlines"
+  "name" : "UM Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "6Z",
-  "name" : "Ukrainian Cargo Airways"
+  "name" : "Ukrainian Cargo Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "5X",
-  "name" : "United Parcel Service"
+  "name" : "United Parcel Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "US",
-  "name" : "US Airways"
+  "name" : "US Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "UT",
-  "name" : "UTair Aviation"
+  "name" : "UTair Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "HY",
-  "name" : "Uzbekistan Airways"
+  "name" : "Uzbekistan Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "PS",
-  "name" : "Ukraine International Airlines"
+  "name" : "Ukraine International Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UH",
-  "name" : "US Helicopter Corporation"
+  "name" : "US Helicopter Corporation",
+  "alliance" : "N/A"
 },
 {
   "code" : "VF",
-  "name" : "Valuair"
+  "name" : "Valuair",
+  "alliance" : "N/A"
 },
 {
   "code" : "VC",
-  "name" : "Voyageur Airways"
+  "name" : "Voyageur Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "VN",
-  "name" : "Vietnam Airlines"
+  "name" : "Vietnam Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "NN",
-  "name" : "VIM Airlines"
+  "name" : "VIM Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "2R",
-  "name" : "VIA Rail Canada"
+  "name" : "VIA Rail Canada",
+  "alliance" : "N/A"
 },
 {
   "code" : "Y4",
-  "name" : "Volaris"
+  "name" : "Volaris",
+  "alliance" : "N/A"
 },
 {
   "code" : "VI",
-  "name" : "Volga-Dnepr Airlines"
+  "name" : "Volga-Dnepr Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "VX",
-  "name" : "Virgin America"
+  "name" : "Virgin America",
+  "alliance" : "N/A"
 },
 {
   "code" : "TV",
-  "name" : "Virgin Express"
+  "name" : "Virgin Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "VK",
-  "name" : "Virgin Nigeria Airways"
+  "name" : "Virgin Nigeria Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "VS",
-  "name" : "Virgin Atlantic Airways"
+  "name" : "Virgin Atlantic Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZG",
-  "name" : "Viva Macau"
+  "name" : "Viva Macau",
+  "alliance" : "N/A"
 },
 {
   "code" : "VY",
-  "name" : "Vueling Airlines"
+  "name" : "Vueling Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "XF",
-  "name" : "Vladivostok Air"
+  "name" : "Vladivostok Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "LC",
-  "name" : "Varig Log"
+  "name" : "Varig Log",
+  "alliance" : "N/A"
 },
 {
   "code" : "VM",
-  "name" : "Viaggio Air"
+  "name" : "Viaggio Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "VA",
-  "name" : "Virgin Australia"
+  "name" : "Virgin Australia",
+  "alliance" : "N/A"
 },
 {
   "code" : "DJ",
-  "name" : "Virgin Blue"
+  "name" : "Virgin Blue",
+  "alliance" : "N/A"
 },
 {
   "code" : "RG",
-  "name" : "VRG Linhas Aereas"
+  "name" : "VRG Linhas Aereas",
+  "alliance" : "N/A"
 },
 {
   "code" : "VP",
-  "name" : "VASP"
+  "name" : "VASP",
+  "alliance" : "N/A"
 },
 {
   "code" : "VG",
-  "name" : "VLM Airlines"
+  "name" : "VLM Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "7W",
-  "name" : "Wayraper"
+  "name" : "Wayraper",
+  "alliance" : "N/A"
 },
 {
   "code" : "2W",
-  "name" : "Welcome Air"
+  "name" : "Welcome Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "PT",
-  "name" : "West Air Sweden"
+  "name" : "West Air Sweden",
+  "alliance" : "N/A"
 },
 {
   "code" : "8O",
-  "name" : "West Coast Air"
+  "name" : "West Coast Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "WS",
-  "name" : "WestJet"
+  "name" : "WestJet",
+  "alliance" : "N/A"
 },
 {
   "code" : "WF",
-  "name" : "Widerøe"
+  "name" : "Widerøe",
+  "alliance" : "N/A"
 },
 {
   "code" : "IV",
-  "name" : "Wind Jet"
+  "name" : "Wind Jet",
+  "alliance" : "N/A"
 },
 {
   "code" : "IW",
-  "name" : "Wings Air"
+  "name" : "Wings Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "W6",
-  "name" : "Wizz Air"
+  "name" : "Wizz Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "8Z",
-  "name" : "Wizz Air Hungary"
+  "name" : "Wizz Air Hungary",
+  "alliance" : "N/A"
 },
 {
   "code" : "WO",
-  "name" : "World Airways"
+  "name" : "World Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "1P",
-  "name" : "Worldspan"
+  "name" : "Worldspan",
+  "alliance" : "N/A"
 },
 {
   "code" : "8V",
-  "name" : "Wright Air Service"
+  "name" : "Wright Air Service",
+  "alliance" : "N/A"
 },
 {
   "code" : "SE",
-  "name" : "XL Airways France"
+  "name" : "XL Airways France",
+  "alliance" : "N/A"
 },
 {
   "code" : "MF",
-  "name" : "Xiamen Airlines"
+  "name" : "Xiamen Airlines",
+  "alliance" : "SkyTeam"
 },
 {
   "code" : "XP",
-  "name" : "Xtra Airways"
+  "name" : "Xtra Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "YL",
-  "name" : "Yamal Airlines"
+  "name" : "Yamal Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "Y8",
-  "name" : "Yangtze River Express"
+  "name" : "Yangtze River Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "IY",
-  "name" : "Yemenia"
+  "name" : "Yemenia",
+  "alliance" : "N/A"
 },
 {
   "code" : "Q3",
-  "name" : "Zambian Airways"
+  "name" : "Zambian Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "3J",
-  "name" : "Zip"
+  "name" : "Zip",
+  "alliance" : "N/A"
 },
 {
   "code" : "C4",
-  "name" : "Zimex Aviation"
+  "name" : "Zimex Aviation",
+  "alliance" : "N/A"
 },
 {
   "code" : "BX",
-  "name" : "Air Busan"
+  "name" : "Air Busan",
+  "alliance" : "N/A"
 },
 {
   "code" : "GH",
-  "name" : "Globus"
+  "name" : "Globus",
+  "alliance" : "N/A"
 },
 {
   "code" : "9Y",
-  "name" : "Air Kazakhstan"
+  "name" : "Air Kazakhstan",
+  "alliance" : "N/A"
 },
 {
   "code" : "JD",
-  "name" : "Japan Air System"
+  "name" : "Japan Air System",
+  "alliance" : "N/A"
 },
 {
   "code" : "DS",
-  "name" : "EasyJet (DS)"
+  "name" : "EasyJet (DS)",
+  "alliance" : "N/A"
 },
 {
   "code" : "KW",
-  "name" : "Carnival Air Lines"
+  "name" : "Carnival Air Lines",
+  "alliance" : "N/A"
 },
 {
   "code" : "4H",
-  "name" : "United Airways"
+  "name" : "United Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "M8",
-  "name" : "Trans Maldivian Airways"
+  "name" : "Trans Maldivian Airways",
+  "alliance" : "N/A"
 },
 {
   "code" : "TO",
-  "name" : "Transavia France"
+  "name" : "Transavia France",
+  "alliance" : "N/A"
 },
 {
   "code" : "TM",
-  "name" : "Air Mozambique"
+  "name" : "Air Mozambique",
+  "alliance" : "N/A"
 },
 {
   "code" : "VH",
-  "name" : "Virgin Pacific"
+  "name" : "Virgin Pacific",
+  "alliance" : "N/A"
 },
 {
   "code" : "ZE",
-  "name" : "Eastar Jet"
+  "name" : "Eastar Jet",
+  "alliance" : "N/A"
 },
 {
   "code" : "3O",
-  "name" : "Air Arabia Maroc"
+  "name" : "Air Arabia Maroc",
+  "alliance" : "N/A"
 },
 {
   "code" : "SZ",
-  "name" : "Salzburg arrows"
+  "name" : "Salzburg arrows",
+  "alliance" : "N/A"
 },
 {
   "code" : "KN",
-  "name" : "China United"
+  "name" : "China United",
+  "alliance" : "N/A"
 },
 {
   "code" : "K5",
-  "name" : "SeaPort Airlines"
+  "name" : "SeaPort Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "P9",
-  "name" : "Peruvian Airlines"
+  "name" : "Peruvian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "6Y",
-  "name" : "SmartLynx Airlines"
+  "name" : "SmartLynx Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "E4",
-  "name" : "Elysian Airlines"
+  "name" : "Elysian Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "UQ",
-  "name" : "Skyjet Airlines"
+  "name" : "Skyjet Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "RL",
-  "name" : "Royal Falcon"
+  "name" : "Royal Falcon",
+  "alliance" : "N/A"
 },
 {
   "code" : "PN",
-  "name" : "West Air China"
+  "name" : "West Air China",
+  "alliance" : "N/A"
 },
 {
   "code" : "BQ",
-  "name" : "Buquebus Líneas Aéreas"
+  "name" : "Buquebus Líneas Aéreas",
+  "alliance" : "N/A"
 },
 {
   "code" : "K6",
-  "name" : "Cambodia Angkor Air (K6)"
+  "name" : "Cambodia Angkor Air (K6)",
+  "alliance" : "N/A"
 },
 {
   "code" : "AD",
-  "name" : "Azul"
+  "name" : "Azul",
+  "alliance" : "N/A"
 },
 {
   "code" : "GK",
-  "name" : "Genesis"
+  "name" : "Genesis",
+  "alliance" : "N/A"
 },
 {
   "code" : "FZ",
-  "name" : "Fly Dubai"
+  "name" : "Fly Dubai",
+  "alliance" : "N/A"
 },
 {
   "code" : "9A",
-  "name" : "Air Atlantic"
+  "name" : "Air Atlantic",
+  "alliance" : "N/A"
 },
 {
   "code" : "G5",
-  "name" : "Huaxia"
+  "name" : "Huaxia",
+  "alliance" : "N/A"
 },
 {
   "code" : "3B",
-  "name" : "JobAir"
+  "name" : "JobAir",
+  "alliance" : "N/A"
 },
 {
   "code" : "9C",
-  "name" : "China SSS"
+  "name" : "China SSS",
+  "alliance" : "N/A"
 },
 {
   "code" : "WG",
-  "name" : "Sunwing"
+  "name" : "Sunwing",
+  "alliance" : "N/A"
 },
 {
   "code" : "RS",
-  "name" : "Sky Regional"
+  "name" : "Sky Regional",
+  "alliance" : "N/A"
 },
 {
   "code" : "L4",
-  "name" : "Luchsh Airlines "
+  "name" : "Luchsh Airlines ",
+  "alliance" : "N/A"
 },
 {
   "code" : "7M",
-  "name" : "Mongolian International Air Lines "
+  "name" : "Mongolian International Air Lines ",
+  "alliance" : "N/A"
 },
 {
   "code" : "TW",
-  "name" : "Tway Airlines"
+  "name" : "Tway Airlines",
+  "alliance" : "N/A"
 },
 {
   "code" : "E1",
-  "name" : "Usa Sky Cargo"
+  "name" : "Usa Sky Cargo",
+  "alliance" : "N/A"
 },
 {
   "code" : "L6",
-  "name" : "Mauritania Airlines International"
+  "name" : "Mauritania Airlines International",
+  "alliance" : "N/A"
 },
 {
   "code" : "E5",
-  "name" : "Air Arabia Egypt"
+  "name" : "Air Arabia Egypt",
+  "alliance" : "N/A"
 },
 {
   "code" : "CT",
-  "name" : "Alitalia Cityliner"
+  "name" : "Alitalia Cityliner",
+  "alliance" : "N/A"
 },
 {
   "code" : "PP",
-  "name" : "Air Indus"
+  "name" : "Air Indus",
+  "alliance" : "N/A"
 },
 {
   "code" : "I5",
-  "name" : "Indonesia Sky"
+  "name" : "Indonesia Sky",
+  "alliance" : "N/A"
 },
 {
   "code" : "I2",
-  "name" : "Iberia Express"
+  "name" : "Iberia Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "4O",
-  "name" : "Interjet (ABC Aerolineas)"
+  "name" : "Interjet (ABC Aerolineas)",
+  "alliance" : "N/A"
 },
 {
   "code" : "V2",
-  "name" : "Vision Airlines (V2)"
+  "name" : "Vision Airlines (V2)",
+  "alliance" : "N/A"
 },
 {
   "code" : "FH",
-  "name" : "FlyHigh Airlines Ireland (FH)"
+  "name" : "FlyHigh Airlines Ireland (FH)",
+  "alliance" : "N/A"
 },
 {
   "code" : "HQ",
-  "name" : "HQ- Business Express"
+  "name" : "HQ- Business Express",
+  "alliance" : "N/A"
 },
 {
   "code" : "OD",
-  "name" : "Malindo Air"
+  "name" : "Malindo Air",
+  "alliance" : "N/A"
 },
 {
   "code" : "5Z",
-  "name" : "VivaColombia"
+  "name" : "VivaColombia",
+  "alliance" : "N/A"
 },
 {
   "code" : "SL",
-  "name" : "Thai Lion Air"
+  "name" : "Thai Lion Air",
+  "alliance" : "N/A"
 }]
