@@ -34,6 +34,8 @@ app.controller('MainCtrl', [
   function($scope, flights) {
     $scope.flights = flights.tickets;
     $scope.continents = [];
+    $scope.destination = "";
+    $scope.selected = false;
     $scope.alliances = [
       "OneWorld",
       "SkyTeam",
@@ -61,7 +63,11 @@ app.controller('MainCtrl', [
           return item.LowestFare.Fare <= $scope.budget;
         }
         return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
-      }
+      };
+    };
+    $scope.showDestination = function(destination) {
+      $scope.destination = destination;
+      $scope.selected = true;
     }
   }
 ]);
