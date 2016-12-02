@@ -33,7 +33,6 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 * Implement Date override
 * Show departure and return dates 
 * Implement Max Layover?
-* Show destinations with lowest price, click on for flights
 
 ###Sources
 

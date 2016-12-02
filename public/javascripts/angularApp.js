@@ -53,16 +53,30 @@ app.controller('MainCtrl', [
     };
     $scope.filters = function() {
       return function(item) {
-        if(!$scope.budget && !$scope.alliance) {
-          return true;
+        if(!$scope.destination) {
+          if(!$scope.budget && !$scope.alliance) {
+            return true;
+          }
+          if(!$scope.budget) {
+            return item.LowestFare.Alliance == $scope.alliance;
+          }
+          if (!$scope.alliance) {
+            return item.LowestFare.Fare <= $scope.budget;
+          }
+          return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
         }
-        if(!$scope.budget) {
-          return item.LowestFare.Alliance == $scope.alliance;
+        if(item.DestinationLocation == $scope.destination) {
+          if(!$scope.budget && !$scope.alliance) {
+            return true;
+          }
+          if(!$scope.budget) {
+            return item.LowestFare.Alliance == $scope.alliance;
+          }
+          if (!$scope.alliance) {
+            return item.LowestFare.Fare <= $scope.budget;
+          }
+          return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
         }
-        if (!$scope.alliance) {
-          return item.LowestFare.Fare <= $scope.budget;
-        }
-        return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
       };
     };
     $scope.showDestination = function(destination) {
