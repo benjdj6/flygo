@@ -50,7 +50,7 @@ app.controller('MainCtrl', [
         domestic: $scope.domestic
       });
     };
-    $scope.lessOrEqual = function(fare) {
+    $scope.filters = function() {
       return function(item) {
         if (!$scope.budget) {
           return true;
