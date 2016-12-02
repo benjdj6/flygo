@@ -38,6 +38,7 @@ router.get('/flights/:origin', function(req, res, next) {
           for(k = 0; k < airlines.length; ++k) {
             if(airlines[k].code == flights[i].LowestFare.AirlineCodes[0]) {
               flights[i].LowestFare.AirlineName = airlines[k].name;
+              flights[i].LowestFare.Alliance = airlines[k].alliance;
               break;
             }
           }
@@ -46,6 +47,7 @@ router.get('/flights/:origin', function(req, res, next) {
           flights[i].LowestFare.AirlineName = "Unknown";
         }
       }
+      console.log(flights);
       res.json(flights);
     }
     else {
