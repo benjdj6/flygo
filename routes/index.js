@@ -47,7 +47,6 @@ router.get('/flights/:origin', function(req, res, next) {
           flights[i].LowestFare.AirlineName = "Unknown";
         }
       }
-      console.log(flights);
       res.json(flights);
     }
     else {

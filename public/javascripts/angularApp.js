@@ -35,7 +35,6 @@ app.controller('MainCtrl', [
     $scope.flights = flights.tickets;
     $scope.continents = [];
     $scope.alliances = [
-      "None",
       "OneWorld",
       "SkyTeam",
       "Star Alliance"
@@ -52,10 +51,16 @@ app.controller('MainCtrl', [
     };
     $scope.filters = function() {
       return function(item) {
-        if (!$scope.budget) {
+        if(!$scope.budget && !$scope.alliance) {
           return true;
         }
-        return item.LowestFare.Fare <= $scope.budget;
+        if(!$scope.budget) {
+          return item.LowestFare.Alliance == $scope.alliance;
+        }
+        if (!$scope.alliance) {
+          return item.LowestFare.Fare <= $scope.budget;
+        }
+        return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
       }
     }
   }
