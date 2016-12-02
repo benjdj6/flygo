@@ -1,4 +1,4 @@
-var app = angular.module('flygo', []);
+var app = angular.module('flygo', ['ui.unique']);
 
 app.factory('flights', ['$http', function($http) {
   var o = {

@@ -50,6 +50,7 @@ router.get('/flights/:origin', function(req, res, next) {
       res.json(flights);
     }
     else {
+      console.log(response);
       res.json(response.statusCode);
     }
   });
