@@ -65,7 +65,9 @@
       </div>
       <div ng-show="selected">
         <div ng-repeat="flight in flights | filter: filters() | orderBy: 'LowestFare.Fare'">
-          {{flight.LowestFare.Fare}} with {{flight.LowestFare.AirlineName}}
+          <div class="row destinations" ng-class-even="'even'" ng-show="{{flight.LowestFare.Fare}}">
+            ${{flight.LowestFare.Fare}} with {{flight.LowestFare.AirlineName}}
+          </div>
         </div>
       </div>
     </div>
