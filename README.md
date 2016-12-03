@@ -17,7 +17,9 @@ FlyGo is for finding flights when you have dates and a budget but not a destinat
 
 First register for an API key from [Sabre Dev Studio](https://developer.sabre.com/member/register) and go through the [Authentication Steps](https://developer.sabre.com/docs/read/rest_basics/authentication).
 
-Then clone this repo to your local machine and navigate to its root directory. Run `npm install` to install all dependencies.
+Then clone this repo to your local machine and navigate to its root directory. Run `npm install` to install all npm dependencies.
+
+After loading the npm modules download to the public directory angular-ui-unique by running `bower install angular-ui-utils#bower-unique`
 
 Once all dependencies have installed run
 
