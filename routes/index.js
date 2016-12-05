@@ -88,7 +88,11 @@ router.get('/flights/:origin', function(req, res, next) {
           flights[i].DepartureDateText = date;
         }
         flights[i].PricePerMile = parseFloat(flights[i].PricePerMile).toFixed(2);
+        if(flights[i].LowestFare.Fare) {
+          flights[i].LowestFareText = parseFloat(flights[i].LowestFare.Fare).toFixed(2);
+        }
       }
+      console.log(flights);
       res.json(flights);
     }
     else {
