@@ -13,6 +13,29 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Flygo' });
 });
 
+router.get('/destinations/:origin', function(req, res, next) {
+  var options = {
+    url: 'https://api.test.sabre.com/v1/lists/top/destinations',
+    headers: {
+      'Authorization' : process.env.SECRET
+    },
+    qs: {
+      'origin' : req.params.origin,
+      'lookbackweeks' : 8,
+      'topdestinations' : 20
+    }
+  };
+  request(options, function(err, response, body) {
+    if(!err && response.statusCode == 200) {
+      res.json(body);
+    }
+    else {
+      res.json(response.statusCode);
+    }
+  });
+});
+
+
 /* GET destinations from origin with 7 day stay */
 router.get('/flights/:origin', function(req, res, next) {
   var options = {
