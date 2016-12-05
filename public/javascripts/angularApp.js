@@ -2,13 +2,31 @@ var app = angular.module('flygo', ['ui.unique']);
 
 app.factory('flights', ['$http', function($http) {
   var o = {
+    destinations: [],
     tickets: []
+  };
+
+  o.getDestinations = function(origin) {
+    if(!origin) {
+      alert("No origin defined!");
+      return;
+    }
+    return $http({
+      method: 'GET',
+      url: '/destinations/' + origin
+    }).success(function(data) {
+      if(data == 404) {
+        alert("No Results :(");
+        return;
+      }
+      angular.copy(data, o.destinations);
+    });
   };
 
   //Sends request to Express API to get flights
   o.getFlights = function(query) {
     if(!query.origin) {
-      alert("No origin defined");
+      alert("No origin defined!");
       return;
     }
     return $http({
@@ -33,6 +51,7 @@ app.controller('MainCtrl', [
   'flights',
   function($scope, flights) {
     $scope.flights = flights.tickets;
+    $scope.destinations = flights.destinations;
     $scope.continents = [];
     $scope.destination = "";
     $scope.selected = false;
@@ -41,6 +60,9 @@ app.controller('MainCtrl', [
       "SkyTeam",
       "Star Alliance"
     ];
+    $scope.getDestinations = function() {
+      flights.getDestinations($scope.origin);
+    };
     $scope.getTickets = function() {
       flights.getFlights({
         origin: $scope.origin,
