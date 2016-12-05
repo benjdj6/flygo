@@ -61,7 +61,7 @@
       </div>
       <div ng-repeat="flight in flights | filter: filters() | orderBy: 'LowestFare.Fare' | unique: 'DestinationLocation'" ng-hide="selected || milerun">
         <div class="row destinations" ng-class-even="'even'" ng-show="{{flight.LowestFare.Fare}}" ng-click="showDestination(flight.DestinationLocation)">
-          {{flight.DestinationLocation}} starting at ${{flight.LowestFare.Fare}}
+          {{flight.DestinationLocation}} starting at ${{flight.LowestFareText}}
         </div>
       </div>
       <div ng-repeat="flight in flights | filter: filters() | orderBy: 'PricePerMile' | unique: 'DestinationLocation'" ng-show="!selected && milerun">
@@ -72,7 +72,7 @@
       <div ng-show="selected">
         <div ng-repeat="flight in flights | filter: filters() | orderBy: 'LowestFare.Fare'">
           <div class="row destinations" ng-class-even="'even'" ng-show="{{flight.LowestFare.Fare}}">
-            ${{flight.LowestFare.Fare}} with {{flight.LowestFare.AirlineName}} on {{flight.DepartureDateText}}
+            ${{flight.LowestFareText}} with {{flight.LowestFare.AirlineName}} on {{flight.DepartureDateText}}
           </div>
         </div>
       </div>
