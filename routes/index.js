@@ -68,19 +68,20 @@ router.get('/flights/:origin', function(req, res, next) {
               break;
             }
           }
-          if(flights[i].DepartureDateTime) {
-            var date = flights[i].DepartureDateTime.split('-');
-            var year = date[0];
-            var month = months[parseInt(date[1])-1];
-            var day = ((date[2].split('')).slice(0,2)).join('');
-            date = [day, month].join(', ');
-            date = [date, year].join(' ');
-            flights[i].DepartureDateText = date;
-          }
         }
         else {
           flights[i].LowestFare.AirlineName = "Unknown";
         }
+        if(flights[i].DepartureDateTime) {
+          var date = flights[i].DepartureDateTime.split('-');
+          var year = date[0];
+          var month = months[parseInt(date[1])-1];
+          var day = ((date[2].split('')).slice(0,2)).join('');
+          date = [day, month].join(', ');
+          date = [date, year].join(' ');
+          flights[i].DepartureDateText = date;
+        }
+        flights[i].PricePerMile = parseFloat(flights[i].PricePerMile).toFixed(2);
       }
       res.json(flights);
     }

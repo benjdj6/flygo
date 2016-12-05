@@ -30,7 +30,6 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 ###TODO
 
 * Implement Continent filter
-* Implement mileage run option
 * Better UI
 * Implement Date override
 * Show return dates 
