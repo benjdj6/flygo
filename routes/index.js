@@ -58,6 +58,7 @@ router.get('/flights/:origin', function(req, res, next) {
           date = [date, year].join(' ');
           flights[i].DepartureDateText = date;
         }
+        flights[i].PricePerMile = parseFloat(flights[i].PricePerMile).toFixed(2);
       }
       res.json(flights);
     }
