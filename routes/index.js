@@ -27,7 +27,13 @@ router.get('/destinations/:origin', function(req, res, next) {
   };
   request(options, function(err, response, body) {
     if(!err && response.statusCode == 200) {
-      res.json((JSON.parse(response.body)).Destinations);
+      var destinations = (JSON.parse(response.body)).Destinations;
+      for(i = 0; i < destinations.length; ++i) {
+        if(!destinations[i].Destination.CityName) {
+          destinations[i].Destination.CityName = destinations[i].Destination.MetropolitanAreaName;
+        }
+      }
+      res.json(destinations);
     }
     else {
       res.json(response.statusCode);
