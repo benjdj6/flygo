@@ -27,7 +27,7 @@ router.get('/destinations/:origin', function(req, res, next) {
   };
   request(options, function(err, response, body) {
     if(!err && response.statusCode == 200) {
-      res.json(body);
+      res.json((JSON.parse(response.body)).Destinations);
     }
     else {
       res.json(response.statusCode);
