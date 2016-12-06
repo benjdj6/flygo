@@ -68,7 +68,7 @@ app.controller('MainCtrl', [
         origin: $scope.origin,
         alliance: $scope.alliance,
         depart: $scope.depart,
-        return: $scope.return,
+        return: $scope.triplength,
         layover: $scope.layover,
         domestic: $scope.domestic
       });
