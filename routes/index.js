@@ -10,7 +10,7 @@ var months = ["Jan", "Feb", "Mar", "Apr", "May",
   "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 
-function prices(destination, callback) {
+function getFares(destination, callback) {
   var options = {
     url: 'https://api.test.sabre.com/v1/historical/flights/fares',
     headers: {
@@ -25,7 +25,11 @@ function prices(destination, callback) {
     }
   };
   request(options, function(err, res, body) {
-    callback(err, body);
+    dest =  (JSON.parse(res.body));
+    dest.DestinationCountry = destination.Destination.CountryName;
+    dest.DestinationLocation = destination.Destination.CityName;
+    dest.FareData[0].MinimumFare = parseFloat(dest.FareData[0].MinimumFare).toFixed(2);
+    callback(err, dest);
   });
 }
 
@@ -70,7 +74,6 @@ function flightHandler(err, response, body) {
     return flights;
   }
   else {
-    console.log("here");
     return response.statusCode;
   }
 };
@@ -102,13 +105,12 @@ router.get('/destinations/:origin', function(req, res, next) {
         }
         destinations[i].Origin = (JSON.parse(body)).OriginLocation;
       }
-      async.map(destinations, prices, function(err, result) {
+      async.map(destinations, getFares, function(err, result) {
         if(err) {
           return console.log(err);
         }
-        console.log(result);
+        res.json(result);
       });
-      res.json(destinations);
     }
     else {
       res.json(response.statusCode);

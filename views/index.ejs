@@ -63,7 +63,7 @@
       </div>
       <div ng-repeat="destination in destinations" ng-hide="selected || milerun">
         <div class="row destinations" ng-class-even="'even'">
-          {{destination.Destination.CityName}}, {{destination.Destination.CountryName}}
+          {{destination.DestinationLocation}}, {{destination.DestinationCountry}} for ${{destination.FareData[0].MinimumFare}}
         </div>
       </div>
       <div ng-repeat="flight in flights | filter: filters() | orderBy: 'PricePerMile' | unique: 'DestinationLocation'" ng-show="!selected && milerun">

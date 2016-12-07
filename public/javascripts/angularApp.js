@@ -7,8 +7,8 @@ app.factory('flights', ['$http', function($http) {
   };
 
   o.getDestinations = function(origin, departureDate) {
-    if(!origin) {
-      alert("No origin defined!");
+    if(!origin || !departureDate) {
+      alert("Origin or departure date is missing!");
       return;
     }
     return $http({
