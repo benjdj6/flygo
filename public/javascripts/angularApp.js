@@ -6,14 +6,17 @@ app.factory('flights', ['$http', function($http) {
     tickets: []
   };
 
-  o.getDestinations = function(origin) {
+  o.getDestinations = function(origin, departureDate) {
     if(!origin) {
       alert("No origin defined!");
       return;
     }
     return $http({
       method: 'GET',
-      url: '/destinations/' + origin
+      url: '/destinations/' + origin,
+      qs: {
+        'departureDate' : departureDate
+      }
     }).success(function(data) {
       if(data == 404) {
         alert("No Results :(");
@@ -60,9 +63,11 @@ app.controller('MainCtrl', [
       "SkyTeam",
       "Star Alliance"
     ];
+
     $scope.getDestinations = function() {
-      flights.getDestinations($scope.origin);
+      flights.getDestinations($scope.origin, $scope.depart);
     };
+
     $scope.getTickets = function() {
       flights.getFlights({
         origin: $scope.origin,
@@ -73,6 +78,7 @@ app.controller('MainCtrl', [
         domestic: $scope.domestic
       });
     };
+
     $scope.filters = function() {
       return function(item) {
         if(!$scope.destination) {
@@ -101,6 +107,7 @@ app.controller('MainCtrl', [
         }
       };
     };
+
     $scope.showDestination = function(destination) {
       $scope.destination = destination;
       $scope.selected = true;
