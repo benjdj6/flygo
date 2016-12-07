@@ -23,7 +23,7 @@ After loading the npm modules download to the public directory angular-ui-unique
 
 Once all dependencies have installed run
 
->SECRET={YOUR-KEY-HERE} npm start
+>SECRET='Bearer {YOUR-KEY-HERE}' npm start
 
 to run the server. The Flygo page can be accessed at `http://localhost:3000` in your browser
 
@@ -38,4 +38,4 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 
 ###Sources
 
-Airfare data is sources from [Sabre](https://developer.sabre.com), and airport and airline codes are originally sourced from [OpenFlights.org](http://openflights.org/data.html) and modified/converted into json files by me.
+Airfare data is sourced from [Sabre](https://developer.sabre.com), and airport and airline codes are originally sourced from [OpenFlights.org](http://openflights.org/data.html) and modified/converted into json files by me.
