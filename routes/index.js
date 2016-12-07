@@ -1,3 +1,4 @@
+var async = require('async');
 var express = require('express');
 var request = require('request');
 var airports = require('../data/airports.json');
@@ -8,11 +9,31 @@ var router = express.Router();
 var months = ["Jan", "Feb", "Mar", "Apr", "May",
   "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+function prices(destination, callback) {
+  var options = {
+    url: 'https://api.test.sabre.com/v1/historical/flights/fares',
+    headers: {
+      'Authorization' : process.env.SECRET
+    },
+    qs: {
+      'origin' : destination.Origin,
+      'destination' : destination.Destination.DestinationLocation,
+      'earliestdeparturedate' : '2017-01-12', //Placeholder
+      'latestdeparturedate' : '2017-01-12',
+      'lengthofstay' : '7'
+    }
+  };
+  request(options, function(err, res, body) {
+    callback(err, body);
+  });
+}
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Flygo' });
 });
 
+/*GET most popular destinations over past 8 weeks from origin*/
 router.get('/destinations/:origin', function(req, res, next) {
   var options = {
     url: 'https://api.test.sabre.com/v1/lists/top/destinations',
@@ -22,7 +43,7 @@ router.get('/destinations/:origin', function(req, res, next) {
     qs: {
       'origin' : req.params.origin,
       'lookbackweeks' : 8,
-      'topdestinations' : 20
+      'topdestinations' : 30
     }
   };
   request(options, function(err, response, body) {
@@ -32,7 +53,14 @@ router.get('/destinations/:origin', function(req, res, next) {
         if(!destinations[i].Destination.CityName) {
           destinations[i].Destination.CityName = destinations[i].Destination.MetropolitanAreaName;
         }
+        destinations[i].Origin = (JSON.parse(body)).OriginLocation;
       }
+      async.map(destinations, prices, function(err, result) {
+        if(err) {
+          return console.log(err);
+        }
+        console.log(result);
+      });
       res.json(destinations);
     }
     else {
