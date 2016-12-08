@@ -118,24 +118,4 @@ router.get('/destinations/:origin', function(req, res, next) {
   });
 });
 
-/* GET destinations from origin with 7 day stay */
-router.get('/flights/:origin', function(req, res, next) {
-  var options = {
-    url: 'https://api.test.sabre.com/v2/shop/flights/fares',
-    headers: {
-      'Authorization' : process.env.SECRET
-    },
-    qs: {
-      'origin': req.params.origin,
-      'maxfare': req.query.maxfare,
-      'lengthofstay': 7
-    }
-  };
-  request(options, function(err, response, body) {
-    var result = flightHandler(err, response, body);
-    console.log(result);
-    res.json(result);
-  });
-});
-
 module.exports = router;
