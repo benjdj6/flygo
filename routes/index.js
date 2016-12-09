@@ -12,71 +12,40 @@ var months = ["Jan", "Feb", "Mar", "Apr", "May",
 
 function getFares(destination, callback) {
   var options = {
-    url: 'https://api.test.sabre.com/v1/historical/flights/fares',
+    url: 'https://api.test.sabre.com/v1/shop/flights',
     headers: {
       'Authorization' : process.env.SECRET
     },
     qs: {
       'origin' : destination.Origin,
-      'destination' : destination.Destination.DestinationLocation,
-      'earliestdeparturedate' : '2017-01-12', //Placeholder
-      'latestdeparturedate' : '2017-01-12',
-      'lengthofstay' : '7'
+      'destination'  : destination.Destination.DestinationLocation,
+      'departuredate' : destination.DepartureDate,
+      'returndate' : destination.ReturnDate,
+      'limit' : 50
     }
   };
+  //console.log(destination.Origin);
+  //console.log(destination.Destination.DestinationLocation);
   request(options, function(err, res, body) {
-    dest =  (JSON.parse(res.body));
-    dest.DestinationCountry = destination.Destination.CountryName;
-    dest.DestinationLocation = destination.Destination.CityName;
-    dest.FareData[0].MinimumFare = parseFloat(dest.FareData[0].MinimumFare).toFixed(2);
-    callback(err, dest);
+    // dest =  (JSON.parse(res.body));
+    // dest.DestinationCountry = destination.Destination.CountryName;
+    // dest.DestinationLocation = destination.Destination.CityName;
+    // dest.FareData[0].MinimumFare = parseFloat(dest.FareData[0].MinimumFare).toFixed(2);
+    // callback(err, dest);
+    flights = (JSON.parse(res.body)).PricedItineraries;
+    //console.log(JSON.parse(flights));
+    // for(i = 0; i < flights.PricedItineraries.length; ++i) {
+    //   //holder
+    // }
+    for(var key in flights) {
+      flights[key].DestinationLocation = destination.Destination.DestinationLocation;
+      flights[key].CityName = destination.Destination.CityName;
+      flights[key].CountryName = destination.Destination.CountryName;
+      flights[key].Fare = flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount;
+    }
+    callback(err, flights);
   });
 }
-
-
-function flightHandler(err, response, body) {
-  if(!err && response.statusCode == 200) {
-    var flights = (JSON.parse(response.body)).FareInfo;
-    for(i = 0; i < flights.length; ++i) {
-      for(j = 0; j < airports.length; ++j) {
-        if(airports[j].code == flights[i].DestinationLocation) {
-          flights[i].DestinationLocation = airports[j].location;
-          break;
-        }
-      }
-      if(flights[i].LowestFare.AirlineCodes) {
-        flights[i].LowestFare.AirlineName = flights[i].LowestFare.AirlineCodes[0];
-        for(k = 0; k < airlines.length; ++k) {
-          if(airlines[k].code == flights[i].LowestFare.AirlineCodes[0]) {
-            flights[i].LowestFare.AirlineName = airlines[k].name;
-            flights[i].LowestFare.Alliance = airlines[k].alliance;
-            break;
-          }
-        }
-      }
-      else {
-        flights[i].LowestFare.AirlineName = "Unknown";
-      }
-      if(flights[i].DepartureDateTime) {
-        var date = flights[i].DepartureDateTime.split('-');
-        var year = date[0];
-        var month = months[parseInt(date[1])-1];
-        var day = ((date[2].split('')).slice(0,2)).join('');
-        date = [day, month].join(', ');
-        date = [date, year].join(' ');
-        flights[i].DepartureDateText = date;
-      }
-      flights[i].PricePerMile = parseFloat(flights[i].PricePerMile).toFixed(2);
-      if(flights[i].LowestFare.Fare) {
-        flights[i].LowestFareText = parseFloat(flights[i].LowestFare.Fare).toFixed(2);
-      }
-    }
-    return flights;
-  }
-  else {
-    return response.statusCode;
-  }
-};
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -104,12 +73,29 @@ router.get('/destinations/:origin', function(req, res, next) {
           destinations[i].Destination.CityName = destinations[i].Destination.MetropolitanAreaName;
         }
         destinations[i].Origin = (JSON.parse(body)).OriginLocation;
+        var departdate = new Date(req.query.departureDate);
+        var returndate = departdate.getTime() + (86400000 * req.query.triplength);
+        returndate = new Date(returndate);
+        destinations[i].DepartureDate = (((departdate.toISOString()).split('')).slice(0, 10)).join('');
+        destinations[i].ReturnDate = (((returndate.toISOString()).split('')).slice(0, 10)).join('');
       }
-      async.map(destinations, getFares, function(err, result) {
+      async.map(destinations, getFares, function(err, flights) {
         if(err) {
           return console.log(err);
         }
-        res.json(result);
+        var trips = [];
+        for(i = 0; i < flights.length; ++i) {
+          if(flights[i] == undefined) {
+            flights.splice(i, 1);
+            --i;
+          }
+          else {
+            for(j = 0; j < flights[i].length; ++j) {
+              trips.push(flights[i][j]);
+            }
+          }
+        }
+        res.json(trips);
       });
     }
     else {
