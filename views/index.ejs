@@ -33,9 +33,9 @@
 
           <div class="row">
             <label>Departure Date: </label>
-            <input type="date" ng-model="depart"/>
+            <input type="date" ng-model="depart" placeholder="YYYY-MM-DD"/>
             <label>Trip Length: </label>
-            <input type="number" ng-model="triplength" min="0"/>
+            <input type="number" ng-model="triplength" min="0" ng-init="triplength=7"/>
             <!-- Temporarily removed while figuring out data source
             <label>Max Layover (minutes): </label>
             <input type="number" min="0" placeholder="45" ng-model="layover"/>
