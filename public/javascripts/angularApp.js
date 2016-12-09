@@ -22,29 +22,7 @@ app.factory('flights', ['$http', function($http) {
       if(data == 404) {
         return alert("No Results :(");
       }
-      console.log(data);
       angular.copy(data, o.destinations);
-    });
-  };
-
-  //Sends request to Express API to get flights
-  o.getFlights = function(query) {
-    if(!query.origin) {
-      alert("No origin defined!");
-      return;
-    }
-    return $http({
-      method: 'GET',
-      url: '/flights/' + query.origin,
-      qs: {
-        'departureDate' : query.depart
-      }
-    }).success(function(data) {
-      if(data == 404) {
-        alert("No Results :(");
-        return;
-      }
-      angular.copy(data, o.tickets);
     });
   };
 
@@ -69,17 +47,6 @@ app.controller('MainCtrl', [
 
     $scope.getDestinations = function() {
       flights.getDestinations($scope.origin, $scope.depart, $scope.triplength);
-    };
-
-    $scope.getTickets = function() {
-      flights.getFlights({
-        origin: $scope.origin,
-        alliance: $scope.alliance,
-        depart: $scope.depart,
-        triplength: $scope.triplength,
-        layover: $scope.layover,
-        domestic: $scope.domestic
-      });
     };
 
     $scope.filters = function() {
