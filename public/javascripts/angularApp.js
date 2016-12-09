@@ -6,7 +6,7 @@ app.factory('flights', ['$http', function($http) {
     tickets: []
   };
 
-  o.getDestinations = function(origin, departureDate) {
+  o.getDestinations = function(origin, departureDate, tripLength) {
     if(!origin || !departureDate) {
       alert("Origin or departure date is missing!");
       return;
@@ -14,14 +14,15 @@ app.factory('flights', ['$http', function($http) {
     return $http({
       method: 'GET',
       url: '/destinations/' + origin,
-      qs: {
-        'departureDate' : departureDate
+      params: {
+        'departureDate' : departureDate,
+        'triplength' : tripLength
       }
     }).success(function(data) {
       if(data == 404) {
-        alert("No Results :(");
-        return;
+        return alert("No Results :(");
       }
+      console.log(data);
       angular.copy(data, o.destinations);
     });
   };
@@ -34,7 +35,10 @@ app.factory('flights', ['$http', function($http) {
     }
     return $http({
       method: 'GET',
-      url: '/flights/' + query.origin
+      url: '/flights/' + query.origin,
+      qs: {
+        'departureDate' : query.depart
+      }
     }).success(function(data) {
       if(data == 404) {
         alert("No Results :(");
@@ -42,7 +46,6 @@ app.factory('flights', ['$http', function($http) {
       }
       angular.copy(data, o.tickets);
     });
-
   };
 
   return o;
@@ -65,7 +68,7 @@ app.controller('MainCtrl', [
     ];
 
     $scope.getDestinations = function() {
-      flights.getDestinations($scope.origin, $scope.depart);
+      flights.getDestinations($scope.origin, $scope.depart, $scope.triplength);
     };
 
     $scope.getTickets = function() {
@@ -73,7 +76,7 @@ app.controller('MainCtrl', [
         origin: $scope.origin,
         alliance: $scope.alliance,
         depart: $scope.depart,
-        return: $scope.triplength,
+        triplength: $scope.triplength,
         layover: $scope.layover,
         domestic: $scope.domestic
       });
