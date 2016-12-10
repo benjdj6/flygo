@@ -1,12 +1,12 @@
-var airlines = require('../../data/airports.json');
+var airlines = require('../../data/airlines.json');
 
 var airlineCodes = {};
 
 function getAirline(itinerary, flight) {
   flight.Airline = itinerary.OriginDestinationOption[0].FlightSegment[0].MarketingAirline.Code;
   if(airlineCodes[flight.Airline]) {
-    flight.Airline = airlineCodes[flight.Airline].name
-    flight.Alliance = airlineCodes[flight.Airline].alliance
+    flight.Alliance = airlineCodes[flight.Airline].alliance;
+    flight.Airline = airlineCodes[flight.Airline].name;
   }
   else {
     for(i = 0; i < airlines.length; ++i) {
@@ -42,7 +42,6 @@ exports.parseFlightData = function(destination, flights) {
     }
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
     parsedData.push(flight);
-    console.log(flights[key].AirItinerary.OriginDestinationOptions.OriginDestinationOption[0].FlightSegment[0].MarketingAirline.Code);
   }
 
   return parsedData;

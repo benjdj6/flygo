@@ -28,8 +28,10 @@ function getFares(destination, callback) {
   //console.log(destination.Origin);
   //console.log(destination.Destination.DestinationLocation);
   request(options, function(err, res, body) {
-    flights = (JSON.parse(res.body)).PricedItineraries;
-    flights = parser.parseFlightData(destination, flights);
+    if(!err) {
+      flights = (JSON.parse(res.body)).PricedItineraries;
+      flights = parser.parseFlightData(destination, flights);
+    }
     callback(err, flights);
   });
 }
@@ -82,6 +84,7 @@ router.get('/destinations/:origin', function(req, res, next) {
             }
           }
         }
+        //res.json("WELPWELPWELP")
         res.json(trips);
       });
     }
