@@ -3,6 +3,7 @@ var express = require('express');
 var request = require('request');
 var airports = require('../data/airports.json');
 var airlines = require('../data/airlines.json');
+var parser = require('../public/javascripts/flightDataParser');
 
 var router = express.Router();
 
@@ -27,22 +28,8 @@ function getFares(destination, callback) {
   //console.log(destination.Origin);
   //console.log(destination.Destination.DestinationLocation);
   request(options, function(err, res, body) {
-    // dest =  (JSON.parse(res.body));
-    // dest.DestinationCountry = destination.Destination.CountryName;
-    // dest.DestinationLocation = destination.Destination.CityName;
-    // dest.FareData[0].MinimumFare = parseFloat(dest.FareData[0].MinimumFare).toFixed(2);
-    // callback(err, dest);
     flights = (JSON.parse(res.body)).PricedItineraries;
-    //console.log(JSON.parse(flights));
-    // for(i = 0; i < flights.PricedItineraries.length; ++i) {
-    //   //holder
-    // }
-    for(var key in flights) {
-      flights[key].DestinationLocation = destination.Destination.DestinationLocation;
-      flights[key].CityName = destination.Destination.CityName;
-      flights[key].CountryName = destination.Destination.CountryName;
-      flights[key].Fare = flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount;
-    }
+    flights = parser.parseFlightData(destination, flights);
     callback(err, flights);
   });
 }
