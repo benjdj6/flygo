@@ -2,8 +2,7 @@ var app = angular.module('flygo', ['ui.unique']);
 
 app.factory('flights', ['$http', function($http) {
   var o = {
-    destinations: [],
-    tickets: []
+    destinations: []
   };
 
   o.getDestinations = function(origin, departureDate, tripLength) {
@@ -34,7 +33,6 @@ app.controller('MainCtrl', [
   '$scope',
   'flights',
   function($scope, flights) {
-    $scope.flights = flights.tickets;
     $scope.destinations = flights.destinations;
     $scope.continents = [];
     $scope.destination = "";
@@ -56,24 +54,24 @@ app.controller('MainCtrl', [
             return true;
           }
           if(!$scope.budget) {
-            return item.LowestFare.Alliance == $scope.alliance;
+            return item.Alliance == $scope.alliance;
           }
           if (!$scope.alliance) {
-            return item.LowestFare.Fare <= $scope.budget;
+            return item.Fare <= $scope.budget;
           }
-          return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
+          return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
         }
         if(item.DestinationLocation == $scope.destination) {
           if(!$scope.budget && !$scope.alliance) {
             return true;
           }
           if(!$scope.budget) {
-            return item.LowestFare.Alliance == $scope.alliance;
+            return item.Alliance == $scope.alliance;
           }
           if (!$scope.alliance) {
-            return item.LowestFare.Fare <= $scope.budget;
+            return item.Fare <= $scope.budget;
           }
-          return (item.LowestFare.Fare <= $scope.budget && item.LowestFare.Alliance == $scope.alliance);
+          return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
         }
       };
     };
