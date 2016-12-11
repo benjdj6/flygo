@@ -2,6 +2,7 @@ var airlines = require('../../data/airlines.json');
 
 var airlineCodes = {};
 
+//Finds the airline name and alliance and stores it into the flight object
 function getAirline(itinerary, flight) {
   flight.Airline = itinerary.OriginDestinationOption[0].FlightSegment[0].MarketingAirline.Code;
   if(airlineCodes[flight.Airline]) {
@@ -22,15 +23,27 @@ function getAirline(itinerary, flight) {
       }
     }
   }
-
   return flight;
 }
 
+//Calculates the longest layover and stores it in the flight object
 function getLayover(itinerary, flight) {
-  //DO THINGS
+  var segments = itinerary.OriginDestinationOption[0].FlightSegment;
+  flight.layover = 0;
+  for(i = 1; i < segments.length; ++i) {
+    var arrive = new Date(itinerary.OriginDestinationOption[0]
+                          .FlightSegment[i - 1].ArrivalDateTime);
+    var depart = new Date(itinerary.OriginDestinationOption[0]
+                          .FlightSegment[i].DepartureDateTime);
+    var layover = (depart - arrive) / 60000;
+    if(layover > flight.layover) {
+      flight.layover = layover;
+    }
+  }
   return flight;
 }
 
+//Creates flight object, assigns values to it, then returns an array of flight objects
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
   for(var key in flights) {
@@ -41,6 +54,7 @@ exports.parseFlightData = function(destination, flights) {
       'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
     }
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
+    flight = getLayover(flights[key].AirItinerary.OriginDestinationOptions, flight);
     parsedData.push(flight);
   }
 

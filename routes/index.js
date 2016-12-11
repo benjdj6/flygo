@@ -25,8 +25,6 @@ function getFares(destination, callback) {
       'limit' : 50
     }
   };
-  //console.log(destination.Origin);
-  //console.log(destination.Destination.DestinationLocation);
   request(options, function(err, res, body) {
     if(!err) {
       flights = (JSON.parse(res.body)).PricedItineraries;
@@ -84,7 +82,6 @@ router.get('/destinations/:origin', function(req, res, next) {
             }
           }
         }
-        //res.json("WELPWELPWELP")
         res.json(trips);
       });
     }
