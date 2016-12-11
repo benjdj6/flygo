@@ -1,5 +1,6 @@
 var app = angular.module('flygo', ['ui.unique']);
 
+//Contains destination/flight data and relevant functions
 app.factory('flights', ['$http', function($http) {
   var o = {
     destinations: []
@@ -28,7 +29,7 @@ app.factory('flights', ['$http', function($http) {
   return o;
 }]);
 
-//Controller for index.html handles form
+// Controller for index.html handles form
 app.controller('MainCtrl', [
   '$scope',
   'flights',

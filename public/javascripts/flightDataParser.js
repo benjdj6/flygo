@@ -47,12 +47,14 @@ function getLayover(itinerary, flight) {
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
   for(var key in flights) {
+    //Initial properties added, RawFare included due to Angular's orderBy handling floats poorly
     flight = {
       'DestinationLocation' : destination.Destination.DestinationLocation,
       'CityName' : destination.Destination.CityName,
       'CountryName' : destination.Destination.CountryName,
-      'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
-    }
+      'RawFare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
+      'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount
+    };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
     flight = getLayover(flights[key].AirItinerary.OriginDestinationOptions, flight);
     parsedData.push(flight);
