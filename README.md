@@ -1,4 +1,4 @@
-###FlyGo 
+##FlyGo
 
 A web application for finding flights when you don't have a destination yet.
 
@@ -31,9 +31,9 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 
 * Implement Continent filter
 * Better UI
-* Implement Date override
 * Show departure/return dates 
-* Implement Max Layover?
+* Implement international/domestic checkbox
+* Get Mileage run working again?
 
 ###Sources
 
