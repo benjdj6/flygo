@@ -29,16 +29,20 @@ function getAirline(itinerary, flight) {
 //Calculates the longest layover and stores it in the flight object
 function getLayover(itinerary, flight) {
   var segments = itinerary.OriginDestinationOption[0].FlightSegment;
-  flight.layover = 0;
+  flight.Layover = 0;
   for(i = 1; i < segments.length; ++i) {
     var arrive = new Date(itinerary.OriginDestinationOption[0]
                           .FlightSegment[i - 1].ArrivalDateTime);
     var depart = new Date(itinerary.OriginDestinationOption[0]
                           .FlightSegment[i].DepartureDateTime);
     var layover = (depart - arrive) / 60000;
-    if(layover > flight.layover) {
-      flight.layover = layover;
+
+    if(layover > flight.Layover) {
+      flight.Layover = layover;
     }
+
+    flight.DepartureDate = depart.toDateString() + " " + depart.toTimeString();
+    flight.ArrivalDate = arrive.toDateString() + " " + arrive.toTimeString();
   }
   return flight;
 }

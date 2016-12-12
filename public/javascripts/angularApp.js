@@ -50,7 +50,7 @@ app.controller('MainCtrl', [
 
     $scope.filters = function() {
       return function(item) {
-        if(!$scope.destination && $scope.layover >= item.layover) {
+        if(!$scope.destination && $scope.layover >= item.Layover) {
           if(!$scope.budget && !$scope.alliance) {
             return true;
           }
@@ -63,7 +63,7 @@ app.controller('MainCtrl', [
           return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
         }
         if(item.DestinationLocation == $scope.destination 
-            && $scope.layover >= item.layover) {
+            && $scope.layover >= item.Layover) {
           if(!$scope.budget && !$scope.alliance) {
             return true;
           }
