@@ -26,6 +26,7 @@ function getFares(destination, callback) {
     }
   };
   request(options, function(err, res, body) {
+    var flights = null;
     if(!err) {
       flights = (JSON.parse(res.body)).PricedItineraries;
       flights = parser.parseFlightData(destination, flights);
@@ -88,6 +89,7 @@ router.get('/destinations/:origin', function(req, res, next) {
             }
           }
         }
+        console.log(trips);
         res.json(trips);
       });
     }
