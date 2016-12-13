@@ -26,8 +26,18 @@ function getAirline(itinerary, flight) {
   return flight;
 }
 
-//Calculates the longest layover and stores it in the flight object
-function getLayover(itinerary, flight) {
+function convertDate(date) {
+  var result = date.toDateString() + " " + date.toTimeString();
+  result = result.split(' ');
+  result = result.slice(0, 5);
+  result[4] = result[4].slice(0, 5);
+  result.push((date.toTimeString()).split(' ')[2]);
+  return result.join(' ');
+}
+
+//Calculates the longest layover and gets the first departure and last
+//arrival times of the trip and stores them
+function getTimes(itinerary, flight) {
   var segments = itinerary.OriginDestinationOption[0].FlightSegment;
   var depart = new Date(itinerary.OriginDestinationOption[0]
                           .FlightSegment[0].DepartureDateTime);
@@ -35,8 +45,8 @@ function getLayover(itinerary, flight) {
   var arrive = new Date(itinerary.OriginDestinationOption[0]
                           .FlightSegment[0].ArrivalDateTime);
 
-  flight.DepartureDate = depart.toDateString() + " " + depart.toTimeString();
-  flight.ArrivalDate = arrive.toDateString() + " " + arrive.toTimeString();
+  flight.DepartureDate = convertDate(depart);
+  flight.ArrivalDate = convertDate(arrive);
 
   flight.Layover = 0;
   for(i = 1; i < segments.length; ++i) {
@@ -50,7 +60,7 @@ function getLayover(itinerary, flight) {
       flight.Layover = layover;
     }
 
-    flight.ArrivalDate = arrive.toDateString() + " " + arrive.toTimeString();
+    flight.ArrivalDate = convertDate(arrive);
   }
   return flight;
 }
@@ -68,7 +78,7 @@ exports.parseFlightData = function(destination, flights) {
       'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount
     };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
-    flight = getLayover(flights[key].AirItinerary.OriginDestinationOptions, flight);
+    flight = getTimes(flights[key].AirItinerary.OriginDestinationOptions, flight);
     parsedData.push(flight);
   }
 
