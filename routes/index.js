@@ -89,7 +89,6 @@ router.get('/destinations/:origin', function(req, res, next) {
             }
           }
         }
-        console.log(trips);
         res.json(trips);
       });
     }

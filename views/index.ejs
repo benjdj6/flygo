@@ -72,7 +72,7 @@
       <div ng-show="selected">
         <div ng-repeat="destination in destinations | filter: filters() | orderBy: 'Fare'">
           <div class="row destinations" ng-class-even="'even'" ng-show="{{destination.Fare}}">
-            ${{destination.Fare}} with {{destination.Airline}}
+            ${{destination.Fare}} with {{destination.Airline}} depart on {{destination.DepartureDate}} and arrive on {{destination.ArrivalDate}}
           </div>
         </div>
       </div>
