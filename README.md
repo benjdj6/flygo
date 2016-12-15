@@ -31,9 +31,9 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 
 * Implement Continent filter
 * Better UI
-* Implement international/domestic checkbox
 * Get Mileage run working again?
 * Reformat dates to save data
+* Get Domestic Only working as filter rather than search
 
 ###Sources
 

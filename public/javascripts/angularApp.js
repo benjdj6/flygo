@@ -6,17 +6,22 @@ app.factory('flights', ['$http', function($http) {
     destinations: []
   };
 
-  o.getDestinations = function(origin, departureDate, tripLength) {
+  o.getDestinations = function(origin, departureDate, tripLength, domestic) {
     if(!origin || !departureDate) {
       alert("Origin or departure date is missing!");
       return;
+    }
+    var destinationtype = "OVERALL";
+    if(domestic) {
+      destinationtype = "DOMESTIC";
     }
     return $http({
       method: 'GET',
       url: '/destinations/' + origin,
       params: {
         'departureDate' : departureDate,
-        'triplength' : tripLength
+        'triplength' : tripLength,
+        'destinationtype' : destinationtype
       }
     }).success(function(data) {
       if(data == 404) {
@@ -43,9 +48,11 @@ app.controller('MainCtrl', [
       "SkyTeam",
       "Star Alliance"
     ];
+    $scope.domestic = false;
 
     $scope.getDestinations = function() {
-      flights.getDestinations($scope.origin, $scope.depart, $scope.triplength);
+      flights.getDestinations($scope.origin, $scope.depart,
+                              $scope.triplength, $scope.domestic);
     };
 
     $scope.filters = function() {
