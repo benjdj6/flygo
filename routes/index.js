@@ -22,6 +22,10 @@ function getFares(destination, callback) {
       'destination'  : destination.Destination.DestinationLocation,
       'departuredate' : destination.DepartureDate,
       'returndate' : destination.ReturnDate,
+      'sortby' : 'totalfare',
+      'order' : 'asc',
+      'sortby2' : 'elapsedtime',
+      'order2' : 'asc',
       'limit' : 50
     }
   };
