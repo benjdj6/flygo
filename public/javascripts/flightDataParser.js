@@ -70,10 +70,10 @@ exports.parseFlightData = function(destination, flights) {
   parsedData = []
   for(var key in flights) {
     //Initial properties added, RawFare included due to Angular's orderBy handling floats poorly
+    var destinationName = destination.Destination.CityName + ', ' + destination.Destination.CountryName;
     flight = {
       'DestinationLocation' : destination.Destination.DestinationLocation,
-      'CityName' : destination.Destination.CityName,
-      'CountryName' : destination.Destination.CountryName,
+      'DestinationName' : destinationName,
       'RawFare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
       'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount
     };
