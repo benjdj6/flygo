@@ -70,10 +70,10 @@ function getTimes(itinerary, flight) {
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
   var destinationName = destination.Destination.CityName + ', ' + destination.Destination.CountryName;
-  var origin = destination.Origin;
+  var originCountry = destination.Origin;
   for(i = 0; i < airports.length; ++i) {
-    if(airports[i].code == origin) {
-      origin = airports[i].location;
+    if(airports[i].code == originCountry) {
+      originCountry = (airports[i].location.split(','))[1].slice(1);
     }
   }
   for(var key in flights) {
@@ -83,11 +83,10 @@ exports.parseFlightData = function(destination, flights) {
       'DestinationName' : destinationName,
       'RawFare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
       'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
-      'Origin' : origin
+      'OriginCountry' : originCountry
     };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
     flight = getTimes(flights[key].AirItinerary.OriginDestinationOptions, flight);
-    console.log(flight);
     parsedData.push(flight);
   }
 
