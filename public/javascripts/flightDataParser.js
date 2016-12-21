@@ -1,4 +1,5 @@
 var airlines = require('../../data/airlines.json');
+var airports = require('../../data/airports.json')
 
 var airlineCodes = {};
 
@@ -68,17 +69,25 @@ function getTimes(itinerary, flight) {
 //Creates flight object, assigns values to it, then returns an array of flight objects
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
+  var destinationName = destination.Destination.CityName + ', ' + destination.Destination.CountryName;
+  var origin = destination.Origin;
+  for(i = 0; i < airports.length; ++i) {
+    if(airports[i].code == origin) {
+      origin = airports[i].location;
+    }
+  }
   for(var key in flights) {
     //Initial properties added, RawFare included due to Angular's orderBy handling floats poorly
-    var destinationName = destination.Destination.CityName + ', ' + destination.Destination.CountryName;
     flight = {
       'DestinationLocation' : destination.Destination.DestinationLocation,
       'DestinationName' : destinationName,
       'RawFare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
-      'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount
+      'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
+      'Origin' : origin
     };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
     flight = getTimes(flights[key].AirItinerary.OriginDestinationOptions, flight);
+    console.log(flight);
     parsedData.push(flight);
   }
 

@@ -2,7 +2,6 @@ var async = require('async');
 var express = require('express');
 var request = require('request');
 var airports = require('../data/airports.json');
-var airlines = require('../data/airlines.json');
 var parser = require('../public/javascripts/flightDataParser');
 
 var router = express.Router();
