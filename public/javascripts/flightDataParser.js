@@ -74,6 +74,7 @@ exports.parseFlightData = function(destination, flights) {
   for(i = 0; i < airports.length; ++i) {
     if(airports[i].code == originCountry) {
       originCountry = (airports[i].location.split(','))[1].slice(1);
+      break;
     }
   }
   for(var key in flights) {
