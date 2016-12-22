@@ -69,7 +69,9 @@ function getTimes(itinerary, flight) {
 //Creates flight object, assigns values to it, then returns an array of flight objects
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
+
   var destinationName = destination.Destination.CityName + ', ' + destination.Destination.CountryName;
+
   var originCountry = destination.Origin;
   for(i = 0; i < airports.length; ++i) {
     if(airports[i].code == originCountry) {
@@ -77,14 +79,21 @@ exports.parseFlightData = function(destination, flights) {
       break;
     }
   }
+
+  var domestic = false;
+  if(originCountry == destination.Destination.CountryName) {
+    domestic = true;
+  }
+
   for(var key in flights) {
     //Initial properties added, RawFare included due to Angular's orderBy handling floats poorly
     flight = {
-      'DestinationLocation' : destination.Destination.DestinationLocation,
-      'DestinationName' : destinationName,
-      'RawFare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
-      'Fare' : flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
-      'OriginCountry' : originCountry
+      'DestinationLocation': destination.Destination.DestinationLocation,
+      'DestinationName': destinationName,
+      'RawFare': flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
+      'Fare': flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
+      'OriginCountry': originCountry,
+      'Domestic': domestic
     };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
     flight = getTimes(flights[key].AirItinerary.OriginDestinationOptions, flight);
