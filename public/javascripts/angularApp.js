@@ -11,17 +11,12 @@ app.factory('flights', ['$http', function($http) {
       alert("Origin or departure date is missing!");
       return;
     }
-    var destinationtype = "OVERALL";
-    if(domestic) {
-      destinationtype = "DOMESTIC";
-    }
     return $http({
       method: 'GET',
       url: '/destinations/' + origin,
       params: {
         'departureDate' : departureDate,
-        'triplength' : tripLength,
-        'destinationtype' : destinationtype
+        'triplength' : tripLength
       }
     }).success(function(data) {
       if(data == 404) {

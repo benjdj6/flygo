@@ -52,7 +52,6 @@ router.get('/destinations/:origin', function(req, res, next) {
     },
     qs: {
       'origin' : req.params.origin,
-      'destinationtype' : req.query.destinationtype,
       'lookbackweeks' : 8,
       'topdestinations' : 30
     }
