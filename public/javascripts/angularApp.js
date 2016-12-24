@@ -52,6 +52,9 @@ app.controller('MainCtrl', [
 
     $scope.filters = function() {
       return function(item) {
+        if($scope.domestic && !item.Domestic) {
+          return false;
+        }
         if(!$scope.destination && $scope.layover >= item.Layover) {
           if(!$scope.budget && !$scope.alliance) {
             return true;
@@ -59,7 +62,7 @@ app.controller('MainCtrl', [
           if(!$scope.budget) {
             return item.Alliance == $scope.alliance;
           }
-          if (!$scope.alliance) {
+          if(!$scope.alliance) {
             return item.Fare <= $scope.budget;
           }
           return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
@@ -72,7 +75,7 @@ app.controller('MainCtrl', [
           if(!$scope.budget) {
             return item.Alliance == $scope.alliance;
           }
-          if (!$scope.alliance) {
+          if(!$scope.alliance) {
             return item.Fare <= $scope.budget;
           }
           return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
