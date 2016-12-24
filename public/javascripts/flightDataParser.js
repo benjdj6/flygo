@@ -92,7 +92,6 @@ exports.parseFlightData = function(destination, flights) {
       'DestinationName': destinationName,
       'RawFare': flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount * 100,
       'Fare': flights[key].AirItineraryPricingInfo.ItinTotalFare.TotalFare.Amount,
-      'OriginCountry': originCountry,
       'Domestic': domestic
     };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
