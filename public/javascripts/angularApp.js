@@ -55,31 +55,19 @@ app.controller('MainCtrl', [
         if($scope.domestic && !item.Domestic) {
           return false;
         }
-        if(!$scope.destination && $scope.layover >= item.Layover) {
-          if(!$scope.budget && !$scope.alliance) {
-            return true;
-          }
-          if(!$scope.budget) {
-            return item.Alliance == $scope.alliance;
-          }
-          if(!$scope.alliance) {
-            return item.Fare <= $scope.budget;
-          }
-          return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
+        if($scope.destination && $scope.destination != item.DestinationLocation) {
+          return false;
         }
-        if(item.DestinationLocation == $scope.destination 
-            && $scope.layover >= item.Layover) {
-          if(!$scope.budget && !$scope.alliance) {
-            return true;
-          }
-          if(!$scope.budget) {
-            return item.Alliance == $scope.alliance;
-          }
-          if(!$scope.alliance) {
-            return item.Fare <= $scope.budget;
-          }
-          return (item.Fare <= $scope.budget && item.Alliance == $scope.alliance);
+        if($scope.budget && $scope.budget < item.Fare) {
+          return false;
         }
+        if($scope.alliance && item.Alliance != $scope.alliance) {
+          return false;
+        }
+        if($scope.layover < item.Layover) {
+          return false;
+        }
+        return true;
       };
     };
 
