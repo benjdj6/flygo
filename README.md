@@ -31,7 +31,11 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 
 * Implement Continent filter
 * Better UI
-* Get Mileage run working again?
+* Find way to get mileage between two specified airports
+* Setup basic caching solution for airport distances
+* Return total mileage of trip
+* Calculate dollars per mile
+* Implement mileage run option
 
 ###Sources
 
