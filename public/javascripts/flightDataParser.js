@@ -1,5 +1,5 @@
 var airlines = require('../../data/airlines.json');
-var airports = require('../../data/airports.json')
+var airports = require('../../data/airports.json');
 
 var airlineCodes = {};
 
@@ -72,13 +72,7 @@ exports.parseFlightData = function(destination, flights) {
 
   var destinationName = destination.Destination.CityName + ', ' + destination.Destination.CountryName;
 
-  var originCountry = destination.Origin;
-  for(i = 0; i < airports.length; ++i) {
-    if(airports[i].code == originCountry) {
-      originCountry = (airports[i].location.split(','))[1].slice(1);
-      break;
-    }
-  }
+  var originCountry = (airports[destination.Origin].location.split(','))[1].slice(1);
 
   var domestic = false;
   if(originCountry == destination.Destination.CountryName) {
