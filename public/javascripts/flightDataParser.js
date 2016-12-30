@@ -1,29 +1,18 @@
 var airlines = require('../../data/airlines.json');
 var airports = require('../../data/airports.json');
 
-var airlineCodes = {};
-
 //Finds the airline name and alliance and stores it into the flight object
 function getAirline(itinerary, flight) {
   flight.Airline = itinerary.OriginDestinationOption[0].FlightSegment[0].MarketingAirline.Code;
-  if(airlineCodes[flight.Airline]) {
-    flight.Alliance = airlineCodes[flight.Airline].alliance;
-    flight.Airline = airlineCodes[flight.Airline].name;
+  
+  if(airlines[flight.Airline]) {
+    flight.Alliance = airlines[flight.Airline].alliance;
+    flight.Airline = airlines[flight.Airline].name;
   }
   else {
-    for(i = 0; i < airlines.length; ++i) {
-      if(airlines[i].code == flight.Airline) {
-        flight.Airline = airlines[i].name;
-        flight.Alliance = airlines[i].alliance;
-        
-        airlineCodes[airlines[i].code] = {
-          'name' : airlines[i].name,
-          'alliance' : airlines[i].alliance
-        };
-        break;
-      }
-    }
+    flight.Alliance = "N/A"
   }
+
   return flight;
 }
 
