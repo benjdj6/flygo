@@ -29,21 +29,17 @@ function convertDate(date) {
 //arrival times of the trip and stores them
 function getTimes(itinerary, flight) {
   var segments = itinerary.OriginDestinationOption[0].FlightSegment;
-  var depart = new Date(itinerary.OriginDestinationOption[0]
-                          .FlightSegment[0].DepartureDateTime);
+  var depart = new Date(segments[0].DepartureDateTime);
 
-  var arrive = new Date(itinerary.OriginDestinationOption[0]
-                          .FlightSegment[0].ArrivalDateTime);
+  var arrive = new Date(segments[0].ArrivalDateTime);
 
   flight.DepartureDate = convertDate(depart);
   flight.ArrivalDate = convertDate(arrive);
 
   flight.Layover = 0;
   for(i = 1; i < segments.length; ++i) {
-    arrive = new Date(itinerary.OriginDestinationOption[0]
-                          .FlightSegment[i - 1].ArrivalDateTime);
-    depart = new Date(itinerary.OriginDestinationOption[0]
-                          .FlightSegment[i].DepartureDateTime);
+    arrive = new Date(segments[i - 1].ArrivalDateTime);
+    depart = new Date(segments[i].DepartureDateTime);
     var layover = (depart - arrive) / 60000;
 
     if(layover > flight.Layover) {
