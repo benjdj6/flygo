@@ -89,6 +89,7 @@ function getDistance(itinerary, flight) {
   //Convert from meters to miles
   distance = Math.floor((distance/1000) * 0.621371);
   flight.Distance = distance;
+  flight.PricePerMile = (flight.Fare / distance).toFixed(3);
   return flight;
 }
 
