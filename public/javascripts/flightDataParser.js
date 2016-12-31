@@ -74,7 +74,7 @@ function calculateDistance(departLat, departLon, arriveLat, arriveLon) {
   return radius * c;
 }
 
-
+//Get total distance by calculating distance of every segment.
 function getDistance(itinerary, flight) {
   var segments = itinerary.OriginDestinationOption[0].FlightSegment;
   var distance = 0;
@@ -86,6 +86,8 @@ function getDistance(itinerary, flight) {
     distance += calculateDistance(depart.latitude, depart.longitude,
                                   arrive.latitude, arrive.longitude);
   }
+  //Convert from meters to miles
+  distance = (distance/1000) * 0.621371;
   flight.Distance = distance;
   return flight;
 }
