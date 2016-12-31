@@ -51,6 +51,30 @@ function getTimes(itinerary, flight) {
   return flight;
 }
 
+//Converts degrees longitude and latitude to radians
+function toRadians(degrees) {
+  return degrees * (Math.PI / 180)
+}
+
+
+//Uses haversine formula to calculate great circle distance
+function calculateDistance(departLat, departLon, arriveLat, arriveLon) {
+  var radius = 6371000; //Earth's radius in meters
+
+  var departLatRad = toRadians(departLat);
+  var arriveLatRad = toRadians(arriveLat);
+  var diffLatRad = toRadians(arriveLat - departLat);
+  var diffLonRad = toRadians(arriveLon - departLon);
+
+  var a = Math.pow(Math.sin(diffLatRad/2), 2) + Math.cos(departLatRad) *
+          Math.cos(arriveLatRad) * Math.pow(Math.sin(diffLonRad/2), 2);
+
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  return radius * c;
+}
+
+
 //Creates flight object, assigns values to it, then returns an array of flight objects
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
