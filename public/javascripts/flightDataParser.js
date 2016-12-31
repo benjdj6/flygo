@@ -75,6 +75,21 @@ function calculateDistance(departLat, departLon, arriveLat, arriveLon) {
 }
 
 
+function getDistance(itinerary, flight) {
+  var segments = itinerary.OriginDestinationOption[0].FlightSegment;
+  var distance = 0;
+
+  for(i = 0; i < segments.length; ++i) {
+    var depart = airports[segments[i].DepartureAirport.LocationCode];
+    var arrive = airports[segments[i].ArrivalAirport.LocationCode];
+
+    distance += calculateDistance(depart.latitude, depart.longitude,
+                                  arrive.latitude, arrive.longitude);
+  }
+  flight.Distance = distance;
+  return flight;
+}
+
 //Creates flight object, assigns values to it, then returns an array of flight objects
 exports.parseFlightData = function(destination, flights) {
   parsedData = []
@@ -98,6 +113,7 @@ exports.parseFlightData = function(destination, flights) {
       'Domestic': domestic
     };
     flight = getAirline(flights[key].AirItinerary.OriginDestinationOptions, flight);
+    flight = getDistance(flights[key].AirItinerary.OriginDestinationOptions, flight);
     flight = getTimes(flights[key].AirItinerary.OriginDestinationOptions, flight);
     parsedData.push(flight);
   }
