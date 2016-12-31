@@ -87,7 +87,7 @@ function getDistance(itinerary, flight) {
                                   arrive.latitude, arrive.longitude);
   }
   //Convert from meters to miles
-  distance = (distance/1000) * 0.621371;
+  distance = Math.floor((distance/1000) * 0.621371);
   flight.Distance = distance;
   return flight;
 }
