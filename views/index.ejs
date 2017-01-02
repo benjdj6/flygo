@@ -38,7 +38,7 @@
             <input type="number" ng-model="triplength" min="0" ng-init="triplength=7"/>
             <label>Max Layover (minutes): </label>
             <input type="number" min="0" ng-model="layover" ng-init="layover=1441"/>
-            <!-- <input type="checkbox" ng-model="milerun">Mileage Run</input> -->
+            <input type="checkbox" ng-model="milerun">Mileage Run</input>
           </div>
 
           <!-- Temporarily removed while working on ng-models
@@ -64,11 +64,11 @@
           {{destination.DestinationName}} for ${{destination.Fare}}
         </div>
       </div>
-<!--       <div ng-repeat="flight in flights | filter: filters() | orderBy: 'PricePerMile' | unique: 'DestinationLocation'" ng-show="!selected && milerun">
-        <div class="row destinations" ng-class-even="'even'" ng-show="{{flight.LowestFare.Fare}}" ng-click="showDestination(flight.DestinationLocation)">
-          {{flight.DestinationLocation}} for ${{flight.PricePerMile}} per mile
+      <div ng-repeat="destination in destinations | filter: filters() | orderBy: 'PricePerMile' | unique: 'DestinationLocation'" ng-show="!selected && milerun">
+        <div class="row destinations" ng-class-even="'even'" ng-show="{{destination.Fare}}" ng-click="showDestination(destination.DestinationLocation)">
+          {{destination.DestinationName}} for ${{destination.PricePerMile}} per mile
         </div>
-      </div> -->
+      </div>
       <div ng-show="selected">
         <div ng-repeat="destination in destinations | filter: filters() | orderBy: 'RawFare'">
           <div class="row destinations" ng-class-even="'even'" ng-show="{{destination.Fare}}">
