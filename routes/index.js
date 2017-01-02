@@ -9,6 +9,8 @@ var months = ["Jan", "Feb", "Mar", "Apr", "May",
   "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 
+//For a given desination call Sabre flights api
+//and get data for 50 flights to that destination
 function getFares(destination, callback) {
   var options = {
     url: 'https://api.test.sabre.com/v1/shop/flights',
@@ -56,6 +58,8 @@ router.get('/destinations/:origin', function(req, res, next) {
     }
   };
   
+  //Send a request to Sabre to get the top destinations
+  //over the past 8 weeks from the airport defined by the user
   request(options, function(err, response, body) {
     if(!err && response.statusCode == 200) {
       var destinations = (JSON.parse(response.body)).Destinations;
@@ -73,6 +77,8 @@ router.get('/destinations/:origin', function(req, res, next) {
         destinations[i].ReturnDate = (((returndate.toISOString()).split('')).slice(0, 10)).join('');
       }
 
+      //Forever entry in destinations call getFares and process
+      //all of the returned flights
       async.map(destinations, getFares, function(err, flights) {
         if(err) {
           return console.log(err);

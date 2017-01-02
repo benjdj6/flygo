@@ -16,6 +16,7 @@ function getAirline(itinerary, flight) {
   return flight;
 }
 
+//Converts the date object into a smaller more readable format
 function convertDate(date) {
   var result = date.toDateString() + " " + date.toTimeString();
   result = result.split(' ');
