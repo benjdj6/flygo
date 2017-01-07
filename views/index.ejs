@@ -61,18 +61,18 @@
       </div>
       <div ng-repeat="destination in destinations | filter: filters() | unique: 'DestinationLocation' | orderBy: 'RawFare'" ng-hide="selected || milerun">
         <div class="row destinations" ng-class-even="'even'" ng-click="showDestination(destination.DestinationLocation)">
-          {{destination.DestinationName}} for ${{destination.Fare}}
+          <b>{{destination.DestinationName}}</b> for <b>${{destination.Fare}}</b>
         </div>
       </div>
       <div ng-repeat="destination in destinations | filter: filters() | orderBy: 'PricePerMile' | unique: 'DestinationLocation'" ng-show="!selected && milerun">
         <div class="row destinations" ng-class-even="'even'" ng-show="{{destination.Fare}}" ng-click="showDestination(destination.DestinationLocation)">
-          {{destination.DestinationName}} for ${{destination.PricePerMile}} per mile
+          <b>{{destination.DestinationName}}</b> for <b>${{destination.PricePerMile}}</b> per mile
         </div>
       </div>
       <div ng-show="selected">
         <div ng-repeat="destination in destinations | filter: filters() | orderBy: 'RawFare'">
           <div class="row destinations" ng-class-even="'even'" ng-show="{{destination.Fare}}">
-            ${{destination.Fare}} with {{destination.Airline}} depart on {{destination.DepartureDate}} and arrive on {{destination.ArrivalDate}}
+            <b>${{destination.Fare}}</b> with <b>{{destination.Airline}}</b> depart on <b>{{destination.DepartureDate}}</b> and arrive on <b>{{destination.ArrivalDate}}</b>
           </div>
         </div>
       </div>
