@@ -22,7 +22,7 @@ function convertDate(date) {
   result = result.split(' ');
   result = result.slice(0, 5);
   result[4] = result[4].slice(0, 5);
-  result.push((date.toTimeString()).split(' ')[2]);
+  result.push(((date.toTimeString()).split(' ')[2]).replace(/[()]/gi, ''));
   return result.join(' ');
 }
 

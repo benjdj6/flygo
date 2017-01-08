@@ -32,6 +32,7 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 * Implement Continent filter
 * Better UI
 * Change depart and arrive to not show date unless arrive on different date
+* Other sorting options
 
 ###Sources
 
