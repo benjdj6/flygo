@@ -77,7 +77,7 @@ router.get('/destinations/:origin', function(req, res, next) {
         destinations[i].ReturnDate = (((returndate.toISOString()).split('')).slice(0, 10)).join('');
       }
 
-      //Forever entry in destinations call getFares and process
+      //For every entry in destinations call getFares and process
       //all of the returned flights
       async.map(destinations, getFares, function(err, flights) {
         if(err) {
