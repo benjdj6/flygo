@@ -1,7 +1,11 @@
 ##FlyGo
 
 A web application for finding flights when you don't have a destination yet.
-<b>Currently not working due to Sabre API issues</b>
+<b>Currently not working due to Sabre API returning 404</b>
+
+###Update - Not Working
+
+For some reason the Sabre API is returning 404 for valid requests, even sample requests in their Developer Studio page are returning 404. Until this is fixed Flygo will not work.
 
 ###Concept
 
@@ -30,7 +34,6 @@ to run the server. The Flygo page can be accessed at `http://localhost:3000` in 
 
 ###TODO
 
-* DEBUG 404 ISSUE
 * Implement Continent filter
 * Better UI
 * Change depart and arrive to not show date unless arrive on different date
