@@ -1,13 +1,13 @@
-##FlyGo
+## FlyGo
 
 A web application for finding flights when you don't have a destination yet.
 <b>Currently not working due to Sabre API returning 404</b>
 
-###Update - Not Working
+### Update - Not Working
 
 For some reason the Sabre API is returning 404 for valid requests, even sample requests in their Developer Studio page are returning 404. Until this is fixed Flygo will not work.
 
-###Concept
+### Concept
 
 FlyGo is for finding flights when you have dates and a budget but not a destination. The goal of the FlyGo project is to only find flights that match your criteria which can be any combination of the below:
 
@@ -18,7 +18,7 @@ FlyGo is for finding flights when you have dates and a budget but not a destinat
 * Domestic or International
 * Airline Alliance
 
-###Setup
+### Setup
 
 First register for an API key from [Sabre Dev Studio](https://developer.sabre.com/member/register) and go through the [Authentication Steps](https://developer.sabre.com/docs/read/rest_basics/authentication).
 
@@ -32,13 +32,13 @@ Once all dependencies have installed run
 
 to run the server. The Flygo page can be accessed at `http://localhost:3000` in your browser
 
-###TODO
+### TODO
 
 * Implement Continent filter
 * Better UI
 * Change depart and arrive to not show date unless arrive on different date
 * Other sorting options
 
-###Sources
+### Sources
 
 Airfare data is sourced from [Sabre](https://developer.sabre.com), and airport and airline codes are originally sourced from [OpenFlights.org](http://openflights.org/data.html) and modified/converted into json files by me.
