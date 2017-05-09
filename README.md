@@ -1,7 +1,7 @@
 ## FlyGo
 
 A web application for finding flights when you don't have a destination yet.
-<b>Currently not working due to Sabre API returning 404</b>
+<b>Currently not working due to Sabre API returning errors even when using sample API calls</b>
 
 ### Update - Not Working
 
